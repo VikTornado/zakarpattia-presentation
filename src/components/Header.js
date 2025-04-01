@@ -77,12 +77,6 @@ function Header({ toggleLanguage, language }) {
       ],
     },
     {
-      labelUk: "Транспорт",
-      labelEn: "Transport",
-      path: "/transport",
-      subLinks: [],
-    },
-    {
       labelUk: "Контакти",
       labelEn: "Contacts",
       path: "/contacts",
@@ -162,14 +156,14 @@ function Header({ toggleLanguage, language }) {
 
       {/* Sidebar (мобільне меню) */}
       {menuOpen && (
-        <div className="fixed inset-0 bg-gray-900 bg-opacity-90 z-50 flex flex-col items-start p-6 w-3/4 h-screen">
+        <div className="fixed inset-0 bg-gray-900 bg-opacity-90 z-50 flex flex-col items-start p-6 w-3/4 h-screen overflow-y-auto">
+          {" "}
           <button
             className="text-white text-2xl self-end mb-4"
             onClick={() => setMenuOpen(false)}
           >
             <HiX />
           </button>
-
           {menuLinks.map((link, index) => (
             <div key={index} className="w-full">
               <NavLink
@@ -195,7 +189,6 @@ function Header({ toggleLanguage, language }) {
               )}
             </div>
           ))}
-
           <button
             onClick={() => {
               toggleLanguage();

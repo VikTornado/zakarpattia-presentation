@@ -1,5 +1,11 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+
 import Taxation from "./pages/Taxation";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -67,6 +73,7 @@ function App() {
             />
             <Route path="/tourism" element={<Tourism language={language} />} />
             <Route path="/energy" element={<Energy language={language} />} />
+            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </main>
         <Footer />
