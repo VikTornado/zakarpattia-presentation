@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
-
 
 function Header({ toggleLanguage, language }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(null);
+  const location = useLocation();
 
   const menuLinks = [
     {
@@ -41,13 +41,8 @@ function Header({ toggleLanguage, language }) {
           labelEn: "Agriculture",
         },
         { path: "/minerals", labelUk: "Корисні копалини", labelEn: "Minerals" },
+        { path: "/energy", labelUk: "Енергетика", labelEn: "Energy" },
       ],
-    },
-    {
-      labelUk: "Енергетика",
-      labelEn: "Energy",
-      path: "/energy",
-      subLinks: [],
     },
     {
       labelUk: "Інвестиції",
@@ -59,11 +54,7 @@ function Header({ toggleLanguage, language }) {
           labelUk: "Можливості",
           labelEn: "Opportunities",
         },
-        {
-          path: "/taxation",
-          labelUk: "Оподаткування",
-          labelEn: "Taxation",
-        },
+        { path: "/taxation", labelUk: "Оподаткування", labelEn: "Taxation" },
         {
           path: "/parks",
           labelUk: "Індустріальні парки",
@@ -88,63 +79,78 @@ function Header({ toggleLanguage, language }) {
     <header className="fixed top-0 w-full bg-[#171836] text-white p-4 flex justify-between items-center z-50 shadow-md">
       <div className="text-xl font-bold">Zakarpattia</div>
 
-      {/* Навігація для великих екранів */}
+      {/* Desktop navigation */}
       <nav className="hidden lg:flex flex-1 justify-center space-x-6">
-        {menuLinks.map((link, index) => (
-          <div
-            key={index}
-            className="relative"
-            onMouseEnter={() => setDropdownOpen(index)}
-            onMouseLeave={() => setDropdownOpen(null)}
-          >
-            <NavLink
-              to={link.path}
-              className={({ isActive }) =>
-                `hover:underline px-2 py-1 rounded transition-colors duration-300 ${
-                  isActive ? "bg-blue-600 text-white" : "text-gray-300"
-                }`
-              }
-            >
-              {language === "uk" ? link.labelUk : link.labelEn}
-            </NavLink>
+        {menuLinks.map((link, index) => {
+          const isSubActive = link.subLinks.some((sub) =>
+            location.pathname.startsWith(sub.path)
+          );
+          const isActive = location.pathname === link.path || isSubActive;
 
-            {link.subLinks.length > 0 && (
-              <div
-                className={`absolute left-0 top-full mt-2 w-56 bg-gray-800 text-white rounded shadow-lg z-50 transition-all duration-200 ${
-                  dropdownOpen === index
-                    ? "opacity-100 visible"
-                    : "opacity-0 invisible"
+          return (
+            <div
+              key={index}
+              className="relative flex items-center"
+              onMouseEnter={() => setDropdownOpen(index)}
+              onMouseLeave={() => setDropdownOpen(null)}
+            >
+              <button
+                className={`px-4 py-2 rounded transition-all duration-300 ${
+                  isActive
+                    ? "text-white border-b-2 border-blue-400"
+                    : "text-gray-300 hover:text-white"
                 }`}
-                onMouseEnter={() => setDropdownOpen(index)}
-                onMouseLeave={() => setDropdownOpen(null)}
+                onClick={() => {
+                  if (link.subLinks.length === 0) {
+                    window.location.href = link.path;
+                  } else {
+                    setDropdownOpen((prev) => (prev === index ? null : index));
+                  }
+                }}
               >
-                {link.subLinks.map((subLink, subIndex) => (
-                  <NavLink
-                    key={subIndex}
-                    to={subLink.path}
-                    className="block px-4 py-2 hover:bg-gray-700"
-                    onClick={() => setDropdownOpen(null)}
-                  >
-                    {language === "uk" ? subLink.labelUk : subLink.labelEn}
-                  </NavLink>
-                ))}
-              </div>
-            )}
-          </div>
-        ))}
+                {language === "uk" ? link.labelUk : link.labelEn}
+              </button>
+
+              {link.subLinks.length > 0 && (
+                <div
+                  className={`absolute left-0 top-full mt-2 w-56 bg-gray-800 text-white rounded shadow-lg z-50 transition-all duration-200 ${
+                    dropdownOpen === index
+                      ? "opacity-100 visible"
+                      : "opacity-0 invisible"
+                  }`}
+                >
+                  {link.subLinks.map((subLink, subIndex) => (
+                    <NavLink
+                      key={subIndex}
+                      to={subLink.path}
+                      className={({ isActive }) =>
+                        `block px-4 py-2 hover:bg-gray-700 ${
+                          isActive ? "bg-gray-700 font-semibold" : ""
+                        }`
+                      }
+                      onClick={() => setDropdownOpen(null)}
+                    >
+                      {language === "uk" ? subLink.labelUk : subLink.labelEn}
+                    </NavLink>
+                  ))}
+                </div>
+              )}
+            </div>
+          );
+        })}
       </nav>
 
-      {/* Кнопка зміни мови (тільки на великих екранах) */}
-      <div className={`hidden lg:block ${menuOpen ? "hidden" : ""}`}>
+      {/* Language toggle */}
+      <div className="hidden lg:block">
         <button
-          onClick={() => toggleLanguage()}
+          onClick={toggleLanguage}
           className="bg-blue-500 px-3 py-1 rounded"
         >
           {language === "uk" ? "ENG" : "УКР"}
         </button>
       </div>
 
-      {/* Кнопка відкриття Sidebar для мобільних */}
+      {/* Mobile menu button */}
       {!menuOpen && (
         <button
           className="lg:hidden text-white text-2xl"
@@ -154,16 +160,16 @@ function Header({ toggleLanguage, language }) {
         </button>
       )}
 
-      {/* Sidebar (мобільне меню) */}
+      {/* Mobile sidebar */}
       {menuOpen && (
         <div className="fixed inset-0 bg-gray-900 bg-opacity-90 z-50 flex flex-col items-start p-6 w-3/4 h-screen overflow-y-auto">
-          {" "}
           <button
             className="text-white text-2xl self-end mb-4"
             onClick={() => setMenuOpen(false)}
           >
             <HiX />
           </button>
+
           {menuLinks.map((link, index) => (
             <div key={index} className="w-full">
               <NavLink
@@ -189,6 +195,7 @@ function Header({ toggleLanguage, language }) {
               )}
             </div>
           ))}
+
           <button
             onClick={() => {
               toggleLanguage();

@@ -11,7 +11,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
-import About from "./pages/About";
+// import About from "./pages/About";
 import Economy from "./pages/Economy";
 import Summary from "./pages/Summary";
 import Advantages from "./pages/Advantages";
@@ -40,7 +40,7 @@ function App() {
         <main className="flex-grow pt-14">
           <Routes>
             <Route path="/" element={<Home language={language} />} />{" "}
-            <Route path="/about" element={<About />} />
+            <Route path="/about" element={<Navigate to="/summary" replace />} />{" "}
             <Route path="/economy" element={<Economy />} />
             <Route
               path="/summary"
