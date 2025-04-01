@@ -7,6 +7,7 @@ import {
   FaTelegramPlane,
   FaEnvelope,
 } from "react-icons/fa";
+import ContactForm from "../components/ContactForm";
 
 function Contacts({ language }) {
   return (
@@ -40,8 +41,11 @@ function Contacts({ language }) {
           <p>economy@carpathia.gov.ua</p>
           <p>(0312) 61-53-05, 61-29-18</p>
         </div>
+        <div>
+          <ContactForm language={language} />
+        </div>
 
-        {/* Соцмережі */}
+        Соцмережі
         <div className="flex gap-4 justify-center mt-8 flex-wrap">
           {[
             { icon: <FaFacebookF />, link: "#", label: "Facebook" },

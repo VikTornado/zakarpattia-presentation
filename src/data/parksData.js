@@ -351,7 +351,8 @@ export const parks = [
         "• Email: EKONOMIKA@BEREGIVSKA-GROMADA.GOV.UA",
       ],
     },
-    imgSrc: "", // Можна додати пізніше
+    imgSrc:
+      "https://truskavets.ua/wp-content/uploads/2019/11/Ozero_Senevyr.jpg", // Можна додати пізніше
     animateOnHover: true,
   },
   {
@@ -409,7 +410,8 @@ export const parks = [
         "• Email: sandra.chereshnya@gmail.com; EKONOMIKA@BEREGIVSKA-GROMADA.GOV.UA",
       ],
     },
-    imgSrc: "", // Можна додати пізніше, як буде фото
+    imgSrc:
+      "https://truskavets.ua/wp-content/uploads/2019/11/Ozero_Senevyr.jpg", // Можна додати пізніше, як буде фото
     animateOnHover: true,
   },
   {
@@ -467,7 +469,8 @@ export const parks = [
         "• Email: EKONOMIKA@BEREGIVSKA-GROMADA.GOV.UA",
       ],
     },
-    imgSrc: "", // Можна додати фото, якщо надаси файл
+    imgSrc:
+      "https://truskavets.ua/wp-content/uploads/2019/11/Ozero_Senevyr.jpg", // Можна додати фото, якщо надаси файл
     animateOnHover: true,
   },
   {
@@ -525,7 +528,8 @@ export const parks = [
         "• Email: beregdez@gmail.com, atp12137@gmail.com",
       ],
     },
-    imgSrc: "", // Фото можна додати після повторного завантаження
+    imgSrc:
+      "https://truskavets.ua/wp-content/uploads/2019/11/Ozero_Senevyr.jpg", // Фото можна додати після повторного завантаження
     animateOnHover: true,
   },
   {
@@ -583,7 +587,8 @@ export const parks = [
         "• Email: EKONOMIKA@BEREGIVSKA-GROMADA.GOV.UA",
       ],
     },
-    imgSrc: "", // додамо зображення, якщо буде прямий лінк
+    imgSrc:
+      "https://truskavets.ua/wp-content/uploads/2019/11/Ozero_Senevyr.jpg", // додамо зображення, якщо буде прямий лінк
     animateOnHover: true,
   },
   {
@@ -663,7 +668,8 @@ export const parks = [
         "• Other service buildings",
       ],
     },
-    imgSrc: "", // Залишено пустим, бо Google Drive не надає прямого лінку на фото
+    imgSrc:
+      "https://truskavets.ua/wp-content/uploads/2019/11/Ozero_Senevyr.jpg", // Залишено пустим, бо Google Drive не надає прямого лінку на фото
     animateOnHover: true,
   },
   {
@@ -733,7 +739,8 @@ export const parks = [
         "• Railway dead-end No. 9 near the checkpoint (rail connection possible)",
       ],
     },
-    imgSrc: "", // Поки без фото, оскільки Google Drive не дає прямого лінку
+    imgSrc:
+      "https://truskavets.ua/wp-content/uploads/2019/11/Ozero_Senevyr.jpg", // Поки без фото, оскільки Google Drive не дає прямого лінку
     animateOnHover: true,
   },
   {
@@ -801,7 +808,8 @@ export const parks = [
         "• 4 production halls + hangar",
       ],
     },
-    imgSrc: "", // Фото з Google Drive, поки без прямого лінку
+    imgSrc:
+      "https://truskavets.ua/wp-content/uploads/2019/11/Ozero_Senevyr.jpg", // Фото з Google Drive, поки без прямого лінку
     animateOnHover: true,
   },
   {
@@ -867,7 +875,8 @@ export const parks = [
         "• Distance to H-09 highway: 1.4 km",
       ],
     },
-    imgSrc: "", // Посилання на фото з Google Drive (немає прямого зображення)
+    imgSrc:
+      "https://truskavets.ua/wp-content/uploads/2019/11/Ozero_Senevyr.jpg", // Посилання на фото з Google Drive (немає прямого зображення)
     animateOnHover: true,
   },
   {
@@ -925,7 +934,8 @@ export const parks = [
         "• Email: veluki.lutchki.s-r@meta.ua",
       ],
     },
-    imgSrc: "", // Можна вставити лінк, якщо є прямий URL до зображення
+    imgSrc:
+      "https://truskavets.ua/wp-content/uploads/2019/11/Ozero_Senevyr.jpg", // Можна вставити лінк, якщо є прямий URL до зображення
     animateOnHover: true,
   },
 ];
