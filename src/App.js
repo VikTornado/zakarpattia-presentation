@@ -35,7 +35,7 @@ function App() {
   return (
     <LanguageProvider>
       <div className="flex flex-col min-h-screen">
-        <Router>
+        <Router basename="/zakarpattia-presentation">
           <Header />
           <main className="flex-grow pt-14">
             <Routes>
