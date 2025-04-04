@@ -181,7 +181,7 @@ function Header() {
       {menuOpen && (
         <div className="fixed inset-0 bg-gray-900 bg-opacity-90 z-50 flex flex-col items-start p-6 w-3/4 h-screen overflow-y-auto">
           <button
-            className="text-white text-2xl self-end mb-4"
+            className="text-white text-2xl self-end mb-4 z-30"
             onClick={() => setMenuOpen(false)}
           >
             <HiX />
