@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import videoBg from "../assets/background-video.mp4";
+import { LanguageContext } from "../LanguageContext";
 
-function Home({ language }) {
+function Home() {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+  const { language } = useContext(LanguageContext);
 
   return (
     <div className="relative w-full h-screen overflow-hidden text-black">

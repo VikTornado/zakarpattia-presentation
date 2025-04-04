@@ -1,11 +1,14 @@
-import React, { useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import React, { useState, useContext } from "react";
+import { useLocation, NavLink } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
+import { LanguageContext } from "../LanguageContext";
 
-function Header({ toggleLanguage, language }) {
+  function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(null);
   const location = useLocation();
+
+  const { language, toggleLanguage } = useContext(LanguageContext); // <-- ось тут
 
   const menuLinks = [
     {
@@ -27,6 +30,12 @@ function Header({ toggleLanguage, language }) {
           labelEn: "Infrastructure",
         },
         { path: "/tourism", labelUk: "Туризм", labelEn: "Tourism" },
+        {
+          path: "/international",
+          labelUk: "Міжнародна співпраця",
+          labelEn: "International",
+        },
+        { path: "/education", labelUk: "Освіта", labelEn: "Education" }, // 🔹 НОВЕ
       ],
     },
     {
@@ -65,6 +74,12 @@ function Header({ toggleLanguage, language }) {
           labelUk: "Переміщені підприємства",
           labelEn: "Relocated Enterprises",
         },
+        {
+          labelUk: "ІТ-сектор",
+          labelEn: "IT Sector",
+          path: "/it",
+          subLinks: [],
+        },
       ],
     },
     {
@@ -73,13 +88,18 @@ function Header({ toggleLanguage, language }) {
       path: "/contacts",
       subLinks: [],
     },
+    {
+      labelUk: "Презентація",
+      labelEn: "Presentation",
+      path: "/presentation",
+      subLinks: [],
+    },
   ];
 
   return (
     <header className="fixed top-0 w-full bg-[#171836] text-white p-4 flex justify-between items-center z-50 shadow-md">
       <div className="text-xl font-bold">Zakarpattia</div>
 
-      {/* Desktop navigation */}
       <nav className="hidden lg:flex flex-1 justify-center space-x-6">
         {menuLinks.map((link, index) => {
           const isSubActive = link.subLinks.some((sub) =>
@@ -140,7 +160,6 @@ function Header({ toggleLanguage, language }) {
         })}
       </nav>
 
-      {/* Language toggle */}
       <div className="hidden lg:block">
         <button
           onClick={toggleLanguage}
@@ -150,7 +169,6 @@ function Header({ toggleLanguage, language }) {
         </button>
       </div>
 
-      {/* Mobile menu button */}
       {!menuOpen && (
         <button
           className="lg:hidden text-white text-2xl"
@@ -160,7 +178,6 @@ function Header({ toggleLanguage, language }) {
         </button>
       )}
 
-      {/* Mobile sidebar */}
       {menuOpen && (
         <div className="fixed inset-0 bg-gray-900 bg-opacity-90 z-50 flex flex-col items-start p-6 w-3/4 h-screen overflow-y-auto">
           <button

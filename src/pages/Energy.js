@@ -1,6 +1,4 @@
-// src/pages/Energy.js
-
-import React from "react";
+import React, { useContext } from "react";
 import { Bar, Pie } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -11,6 +9,7 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
+import { LanguageContext } from "../LanguageContext";
 
 ChartJS.register(
   CategoryScale,
@@ -21,7 +20,9 @@ ChartJS.register(
   Legend
 );
 
-function Energy({ language }) {
+function Energy() {
+  const { language } = useContext(LanguageContext);
+
   const labels = {
     solar: language === "uk" ? "Сонячна енергія" : "Solar energy",
     wind: language === "uk" ? "Вітрова енергія" : "Wind energy",
@@ -80,6 +81,21 @@ function Energy({ language }) {
 
   const totalPotential = energyData.potential.reduce((a, b) => a + b, 0);
 
+  const overview =
+    language === "uk"
+      ? [
+          "Потенціал для розвитку сонячної енергетики — понад 2000 годин сонця на рік.",
+          "Активне зростання інтересу до вітрової енергетики в гірських районах.",
+          "Малі ГЕС на численних річках — ще один напрямок розвитку.",
+          "Можливість використання термальних джерел для опалення та енергетики.",
+        ]
+      : [
+          "Solar energy potential — more than 2,000 hours of sunshine per year.",
+          "Growing interest in wind energy in mountainous areas.",
+          "Small hydropower stations on numerous rivers offer further development.",
+          "Thermal springs can be used for heating and energy supply.",
+        ];
+
   return (
     <div className="max-w-5xl mx-auto p-6 min-h-screen bg-white">
       <h1 className="text-3xl font-bold text-center mb-6">
@@ -101,6 +117,17 @@ Using this potential will contribute to innovative development, strengthen energ
 
 In the implementation of Ukraine's Energy Strategy, Zakarpattia should be among the leaders.`}
       </p>
+
+      <h2 className="text-xl font-semibold mt-8 mb-4">
+        {language === "uk"
+          ? "Огляд відновлюваних джерел"
+          : "Renewables Overview"}
+      </h2>
+      <ul className="list-disc list-inside text-gray-800 mb-6 space-y-2">
+        {overview.map((item, idx) => (
+          <li key={idx}>{item}</li>
+        ))}
+      </ul>
 
       <div className="overflow-x-auto mb-8">
         <table className="w-full border border-gray-300 text-sm">

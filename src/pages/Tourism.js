@@ -1,39 +1,48 @@
-import React from "react";
+import React, { useContext } from "react";
+import { LanguageContext } from "../LanguageContext";
 
-function Tourism({ language }) {
+const Tourism = () => {
+  const { language } = useContext(LanguageContext);
+
+  const content = {
+    uk: {
+      title: "Туризм",
+      intro:
+        "Закарпаття має значний туристичний потенціал, який лише частково реалізовано. Тут є 298 туристичних об'єктів, зокрема 37 оздоровчих закладів, 137 туристичних і рекреаційних комплексів та 124 готелі.",
+      highlights: [
+        "Сільський туризм з національним колоритом, етнографічними особливостями та цілющими джерелами.",
+        "Унікальна дерев’яна архітектура – старовинні дерев’яні церкви та пам’ятки.",
+        "Народні промисли: ткацтво, вишивка, лозоплетіння, різьблення, гончарство.",
+        "Живописні пейзажі Карпат, чисте повітря, природні екосистеми та рідкісні види флори і фауни.",
+      ],
+    },
+    en: {
+      title: "Tourism",
+      intro:
+        "Zakarpattia has significant tourist potential that has only been partially realized. The region has 298 tourist facilities, including 37 health resorts, 137 tourist and recreational complexes, and 124 hotels.",
+      highlights: [
+        "Rural tourism with national flavor, ethnographic features, and healing springs.",
+        "Unique wooden architecture – ancient wooden churches and historical monuments.",
+        "Folk crafts: weaving, embroidery, basket weaving, wood carving, pottery.",
+        "Picturesque Carpathian landscapes, clean air, natural ecosystems, and rare species of flora and fauna.",
+      ],
+    },
+  };
+
+  const t = content[language];
+
   return (
-    <div className="p-8 bg-gray-50 min-h-screen pt-20">
-      <h1 className="text-3xl font-bold text-center mb-6">
-        {language === "uk" ? "Туризм" : "Tourism"}
-      </h1>
+    <div className="max-w-4xl mx-auto p-6">
+      <h1 className="text-3xl font-bold mb-4">{t.title}</h1>
+      <p className="text-gray-700 mb-4">{t.intro}</p>
 
-      <div className="max-w-3xl mx-auto space-y-6 text-lg">
-        <p>
-          {language === "uk"
-            ? "Закарпаття — один із наймальовничіших куточків України, розташований на південно-західних схилах і передгір'ях Українських Карпат."
-            : "Transcarpathia is one of the most picturesque corners of Ukraine, located on the southwestern slopes and foothills of the Ukrainian Carpathians."}
-        </p>
-
-        <p>
-          {language === "uk"
-            ? "Туризм стає все більш поширеним і вже перетворився на одну з провідних, прибуткових та динамічних галузей світової економіки."
-            : "Tourism is becoming widespread and has already become one of the leading, highly profitable, and most dynamic sectors of the world economy."}
-        </p>
-
-        <p>
-          {language === "uk"
-            ? "Мережа оздоровчих, рекреаційних та туристичних об'єктів на території Закарпатської області під час воєнного стану налічує 706 об'єктів, зокрема: 23 заклади охорони здоров’я."
-            : "The network of health, recreation, and tourist facilities on the territory of Zakarpattia region during martial law includes 706 objects, including: 23 health facilities."}
-        </p>
-
-        <p>
-          {language === "uk"
-            ? "Регіон може прийняти близько 30 000 осіб, майже 600 сільських садиб, готових надавати туристичні послуги, та 20 туристично-інформаційних центрів."
-            : "The region can accommodate about 30,000 people, almost 600 rural estates that are ready to provide tourist services, and 20 tourist information centers."}
-        </p>
-      </div>
+      <ul className="list-disc list-inside text-gray-800 space-y-2">
+        {t.highlights.map((item, idx) => (
+          <li key={idx}>{item}</li>
+        ))}
+      </ul>
     </div>
   );
-}
+};
 
 export default Tourism;
