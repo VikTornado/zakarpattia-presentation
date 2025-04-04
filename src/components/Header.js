@@ -3,12 +3,12 @@ import { useLocation, NavLink } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
 import { LanguageContext } from "../LanguageContext";
 
-  function Header() {
+function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(null);
   const location = useLocation();
 
-  const { language, toggleLanguage } = useContext(LanguageContext); // <-- ось тут
+  const { language, toggleLanguage } = useContext(LanguageContext);
 
   const menuLinks = [
     {
@@ -35,7 +35,7 @@ import { LanguageContext } from "../LanguageContext";
           labelUk: "Міжнародна співпраця",
           labelEn: "International",
         },
-        { path: "/education", labelUk: "Освіта", labelEn: "Education" }, // 🔹 НОВЕ
+        { path: "/education", labelUk: "Освіта", labelEn: "Education" },
       ],
     },
     {
@@ -188,27 +188,44 @@ import { LanguageContext } from "../LanguageContext";
           </button>
 
           {menuLinks.map((link, index) => (
-            <div key={index} className="w-full">
-              <NavLink
-                to={link.path}
-                className="py-3 text-white text-lg w-full text-left hover:bg-gray-700 block"
-                onClick={() => setMenuOpen(false)}
-              >
+            <div key={index} className="w-full mb-2">
+              {/* Заголовок секції */}
+              <div className="text-gray-400 uppercase tracking-wide text-sm px-1">
                 {language === "uk" ? link.labelUk : link.labelEn}
-              </NavLink>
-              {link.subLinks.length > 0 && (
+              </div>
+
+              {/* Якщо є підпункти — виводимо їх */}
+              {link.subLinks.length > 0 ? (
                 <div className="pl-4">
                   {link.subLinks.map((subLink, subIndex) => (
                     <NavLink
                       key={subIndex}
                       to={subLink.path}
-                      className="py-2 text-white text-md w-full text-left hover:bg-gray-700 block"
+                      className={({ isActive }) =>
+                        `py-2 text-md w-full text-left block ${
+                          isActive
+                            ? "text-blue-400 font-semibold"
+                            : "text-white"
+                        } hover:bg-gray-700`
+                      }
                       onClick={() => setMenuOpen(false)}
                     >
                       {language === "uk" ? subLink.labelUk : subLink.labelEn}
                     </NavLink>
                   ))}
                 </div>
+              ) : (
+                <NavLink
+                  to={link.path}
+                  className={({ isActive }) =>
+                    `py-2 text-md w-full text-left block ${
+                      isActive ? "text-blue-400 font-semibold" : "text-white"
+                    } hover:bg-gray-700 pl-4`
+                  }
+                  onClick={() => setMenuOpen(false)}
+                >
+                  {language === "uk" ? link.labelUk : link.labelEn}
+                </NavLink>
               )}
             </div>
           ))}
