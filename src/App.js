@@ -30,6 +30,8 @@ import IT from "./pages/IT";
 import Presentation from "./pages/Presentation";
 import Education from "./pages/Education";
 import Minerals from "./pages/Minerals";
+import RecoveryCenter from "./pages/RecoveryCenter";
+
 
 function App() {
   return (
@@ -67,6 +69,7 @@ function App() {
               <Route path="/international" element={<International />} />
               <Route path="/education" element={<Education />} />
               <Route path="/minerals" element={<Minerals />} />
+              <Route path="/recovery-center" element={<RecoveryCenter />} />
             </Routes>
           </main>
           <Footer />

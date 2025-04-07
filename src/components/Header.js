@@ -83,6 +83,12 @@ function Header() {
       ],
     },
     {
+  labelUk: "Центр 4.5.0",
+  labelEn: "Recovery Center",
+  path: "/recovery-center",
+  subLinks: [],
+},
+    {
       labelUk: "Контакти",
       labelEn: "Contacts",
       path: "/contacts",
