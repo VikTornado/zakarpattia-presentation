@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import ContactForm from "../components/ContactForm";
+import { LanguageContext } from "../LanguageContext";
 
-function Contacts({ language }) {
+function Contacts() {
+  const { language } = useContext(LanguageContext);
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-8 bg-gray-50 text-center">
       <h1 className="text-3xl font-bold mb-6">
