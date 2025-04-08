@@ -1,19 +1,19 @@
 import React, { useContext } from "react";
-import ContactForm from "../components/ContactForm";
 import { LanguageContext } from "../LanguageContext";
+import ContactForm from "../components/ContactForm";
 
 function Contacts() {
   const { language } = useContext(LanguageContext);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-8 bg-gray-50 text-center">
+    <div className="flex flex-col items-center justify-center min-h-screen p-8 bg-gray-100 text-center">
       <h1 className="text-3xl font-bold mb-6">
         {language === "uk" ? "Контакти" : "Contacts"}
       </h1>
 
-      <div className="space-y-6 max-w-xl w-full">
+      <div className="space-y-8 max-w-xl w-full text-center">
         <div>
-          <h2 className="font-semibold">
+          <h2 className="font-semibold text-lg">
             {language === "uk"
               ? "Закарпатська обласна державна адміністрація"
               : "Zakarpattia Regional State Administration"}
@@ -28,7 +28,7 @@ function Contacts() {
         </div>
 
         <div>
-          <h2 className="font-semibold">
+          <h2 className="font-semibold text-lg">
             {language === "uk"
               ? "Департамент регіонального та економічного розвитку"
               : "Department of Regional and Economic Development"}

@@ -1,8 +1,10 @@
-// src/pages/Presentation.js
-import React from "react";
-import presentationVideo from "../assets/video/presentation.mp4"; // імпортуємо відео
+import React, { useContext } from "react";
+import presentationVideo from "../assets/video/presentation.mp4";
+import { LanguageContext } from "../LanguageContext";
 
-const Presentation = ({ language }) => {
+const Presentation = () => {
+  const { language } = useContext(LanguageContext);
+
   const title =
     language === "uk" ? "Презентація Закарпаття" : "Zakarpattya Presentation";
   const description =

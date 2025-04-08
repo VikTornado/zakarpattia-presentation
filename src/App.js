@@ -10,7 +10,7 @@ import { LanguageProvider } from "./LanguageContext";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import International from "./pages/International"; // або з іншого шляху, залежно де збережено
+import International from "./pages/International";
 import Home from "./pages/Home";
 import Summary from "./pages/Summary";
 import Advantages from "./pages/Advantages";
@@ -32,12 +32,14 @@ import Education from "./pages/Education";
 import Minerals from "./pages/Minerals";
 import RecoveryCenter from "./pages/RecoveryCenter";
 
-
 function App() {
+  const basename =
+    process.env.NODE_ENV === "production" ? "/zakarpattia-presentation" : "";
+
   return (
     <LanguageProvider>
       <div className="flex flex-col min-h-screen">
-        <Router basename="/zakarpattia-presentation">
+        <Router basename={basename}>
           <Header />
           <main className="flex-grow pt-14">
             <Routes>
@@ -65,11 +67,11 @@ function App() {
               <Route path="/taxation" element={<Taxation />} />
               <Route path="/tourism" element={<Tourism />} />
               <Route path="/energy" element={<Energy />} />
-              <Route path="*" element={<Navigate to="/" />} />
               <Route path="/international" element={<International />} />
               <Route path="/education" element={<Education />} />
               <Route path="/minerals" element={<Minerals />} />
               <Route path="/recovery-center" element={<RecoveryCenter />} />
+              <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </main>
           <Footer />
