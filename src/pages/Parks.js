@@ -6,7 +6,7 @@ function Parks({ language }) {
   const [openIndex, setOpenIndex] = useState(null);
 
   const handleToggle = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
+    setOpenIndex(openIndex === index ? null : index); // Toggle open/close
   };
 
   return (
@@ -17,8 +17,8 @@ function Parks({ language }) {
             key={index}
             park={park}
             language={language}
-            isOpen={openIndex === index}
-            onToggle={() => handleToggle(index)}
+            isOpen={openIndex === index} // Checking if current park is open
+            onToggle={() => handleToggle(index)} // Toggling the park
           />
         ))}
       </div>

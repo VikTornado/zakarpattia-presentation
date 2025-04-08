@@ -43,7 +43,7 @@ function ParkAccordionCard({ park, language, isOpen, onToggle }) {
               {park.description[language]}
             </p>
             <ul className="space-y-1">
-              {park.details[language].map((line, idx) => (
+              {park.details[language]?.map((line, idx) => (
                 <li key={idx}>{line}</li>
               ))}
             </ul>

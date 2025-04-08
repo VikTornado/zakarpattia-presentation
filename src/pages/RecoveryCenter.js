@@ -1,9 +1,17 @@
-import React, { useContext } from "react";
-import { LanguageContext } from "../LanguageContext";
+import React, { useContext, useEffect } from "react";
+import { LanguageContext } from "../LanguageContext"; // Імпортуємо ваш контекст
+import { useTranslation } from "react-i18next"; // Імпортуємо i18next
 
 const RecoveryCenter = () => {
-  const { language } = useContext(LanguageContext);
-  const t = (uk, en) => (language === "uk" ? uk : en);
+  const { language } = useContext(LanguageContext); // Отримуємо мову з контексту
+  const { t, i18n } = useTranslation(); // Використовуємо i18next для перекладу
+
+  // Слухаємо зміни мови в LanguageContext і оновлюємо i18next
+  useEffect(() => {
+    if (language) {
+      i18n.changeLanguage(language); // Змінюємо мову через i18next
+    }
+  }, [language, i18n]);
 
   return (
     <div className="pt-20 w-full text-white bg-black">
@@ -14,37 +22,28 @@ const RecoveryCenter = () => {
             <h1 className="text-6xl font-bold text-green-300 mb-6">
               4.5.0
               <span className="block text-3xl font-light mt-2">
-                recovery center
+                {t("recoveryCenter.title")}
               </span>
             </h1>
             <p className="text-white font-semibold mb-4">
-              In military terminology, the code '4.5.0.' signifies “ALL IS
-              QUIET”.
+              {t("recoveryCenter.meaningLine1")}
             </p>
-            <p className="text-white">
-              This name conveys the fundamental reassurance that individuals in
-              need of help and medical intervention seek to hear –
-              <strong> RELAX – EVERYTHING WILL BE FINE!</strong>
-            </p>
+            <p className="text-white">{t("recoveryCenter.meaningLine2")}</p>
           </div>
 
           <div className="space-y-8">
             <div>
-              <h3 className="text-lg font-bold text-white">The number "5"</h3>
-              <p className="text-gray-300">
-                is depicted as an upward arrow, symbolizing that at the center,
-                visitors are assisted in “rising,” solving problems, feeling
-                uplifted, and experiencing growth in strength and possibilities.
-              </p>
+              <h3 className="text-lg font-bold text-white">
+                {t("recoveryCenter.number5Title")}
+              </h3>
+              <p className="text-gray-300">{t("recoveryCenter.number5Text")}</p>
             </div>
 
             <div>
-              <h3 className="text-lg font-bold text-white">The number "0"</h3>
-              <p className="text-gray-300">
-                is associated with a survey icon, signifying that each visitor
-                has their own history, unique characteristics, medical aspects,
-                preferences, wishes, and possibly certain taboos.
-              </p>
+              <h3 className="text-lg font-bold text-white">
+                {t("recoveryCenter.number0Title")}
+              </h3>
+              <p className="text-gray-300">{t("recoveryCenter.number0Text")}</p>
             </div>
           </div>
         </div>
@@ -55,32 +54,24 @@ const RecoveryCenter = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-5xl font-bold text-green-300 mb-6">
-              PROJECT IDEA
+              {t("recoveryCenter.projectIdea")}
             </h2>
             <p className="text-gray-400">
-              A center for comprehensive health restoration, psychological
-              well-being, and further self-realization of military personnel and
-              individuals affected by war.
+              {t("recoveryCenter.projectIdeaText")}
             </p>
           </div>
 
           <div className="space-y-4">
-            <div className="bg-white text-black px-4 py-3 rounded shadow font-medium">
-              It is the only center of this kind in the Transcarpathian region.
-            </div>
-            <div className="border border-white px-4 py-3 rounded">
-              We have the best neurosurgery and physical rehabilitation doctors
-              in Ukraine.
-            </div>
-            <div className="border border-white px-4 py-3 rounded">
-              Multidisciplinary rehabilitation assistance is provided.
-            </div>
-            <div className="border border-white px-4 py-3 rounded">
-              We offer socialization, psychological support, and adaptation.
-            </div>
-            <div className="border border-white px-4 py-3 rounded">
-              We feature an operating ADC (Administrative Services Center).
-            </div>
+            {Array.from({ length: 5 }, (_, i) => (
+              <div
+                key={i}
+                className={`${
+                  i === 0 ? "bg-white text-black" : "border border-white"
+                } px-4 py-3 rounded shadow font-medium`}
+              >
+                {t(`recoveryCenter.bullet${i + 1}`)}
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -90,18 +81,13 @@ const RecoveryCenter = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start">
           <div>
             <h2 className="text-3xl font-extrabold mb-6">
-              Multidisciplinary rehabilitation assistance includes work with:
+              {t("recoveryCenter.assistanceTitle")}
             </h2>
           </div>
           <ul className="space-y-3 text-lg font-medium">
-            <li>Prosthetics</li>
-            <li>Pathologies of the spinal and cranial nerves</li>
-            <li>
-              Skeletal injuries and pathologies of the musculoskeletal system
-            </li>
-            <li>Burns</li>
-            <li>Amputations</li>
-            <li>Cardiorespiratory pathologies</li>
+            {Array.from({ length: 6 }, (_, i) => (
+              <li key={i}>{t(`recoveryCenter.assistance${i + 1}`)}</li>
+            ))}
           </ul>
         </div>
       </section>
@@ -111,31 +97,21 @@ const RecoveryCenter = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold mb-6">
-              {t("Наша ціль", "Our goal")}
+              {t("recoveryCenter.goalTitle")}
             </h2>
             <p className="text-green-400 font-semibold mb-4">
-              {t(
-                "створити Центр, де пацієнти почуваються в безпеці, комфортно, спокійно та впевнено на кожному етапі контакту",
-                "is to make the Center a place where the patients feel safe, convenient, calm, and confident at every point of contact with the Center."
-              )}
+              {t("recoveryCenter.goalText1")}
             </p>
-            <p className="text-gray-300">
-              {t(
-                "Ми прагнемо, щоб центр був наповнений потужними експертами, які не гають часу та беруться за найскладніші завдання. Ми прагнемо зменшити відчуття 'лікарні', враховуючи всі аспекти інклюзивності та можливих фізичних обмежень наших відвідувачів.",
-                "We aim for it to be a center with powerful experts who don't waste time and take on the most challenging tasks to ensure a comfortable environment inside. We focus on minimizing the 'hospital' feeling considering all aspects of inclusivity and potential physical limitations of the Center's visitors."
-              )}
-            </p>
+            <p className="text-gray-300">{t("recoveryCenter.goalText2")}</p>
           </div>
 
           <div className="flex justify-center">
             <div className="bg-white rounded-lg shadow p-6 text-black text-center">
               <p className="uppercase tracking-wide font-bold">
-                CENTER IS CREATED BY PEOPLE
-                <br />
-                FOR PEOPLE!
+                {t("recoveryCenter.goalCard")}
               </p>
               <div className="text-sm text-gray-500 mt-4">
-                4.5.0 recovery center
+                {t("recoveryCenter.title")} {/* 4.5.0 recovery center */}
               </div>
               <div className="flex justify-center gap-4 mt-2 text-2xl">
                 ❤️ 👥
@@ -152,27 +128,13 @@ const RecoveryCenter = () => {
             <h2 className="text-5xl font-bold mb-8">
               4.5.0
               <br />
-              recovery center
+              {t("recoveryCenter.title")}
             </h2>
           </div>
           <ul className="space-y-4 text-lg font-medium">
-            <li>
-              <strong>~100</strong> bed spaces
-            </li>
-            <li>
-              Estimated patient flow per year – <strong>2400</strong>;
-              Outpatient – <strong>650</strong>
-            </li>
-            <li>
-              Total area of the Center – <strong>5460 sq.m.</strong>
-            </li>
-            <li>
-              Own shelter (bomb shelter) – <strong>350 sq.m.</strong>
-            </li>
-            <li>Municipal ownership</li>
-            <li>
-              Estimated project cost – <strong>400 million UAH</strong>
-            </li>
+            {Array.from({ length: 6 }, (_, i) => (
+              <li key={i}>{t(`recoveryCenter.infra${i + 1}`)}</li>
+            ))}
           </ul>
         </div>
       </section>
@@ -182,20 +144,62 @@ const RecoveryCenter = () => {
         <div className="max-w-4xl mx-auto text-center space-y-12">
           <div>
             <p className="text-green-400 text-lg mb-2">
-              {t("Статус впровадження:", "Implementation status:")}
+              {t("recoveryCenter.statusLabel")}
             </p>
             <h2 className="text-3xl font-bold">
-              {t("Завершальний етап проєктування", "FINAL STAGE OF DESIGN")}
+              {t("recoveryCenter.statusTitle")}
             </h2>
           </div>
           <div>
             <p className="text-green-400 text-lg mb-2">
-              {t("Відкриття центру:", "Center launch:")}
+              {t("recoveryCenter.launchLabel")}
             </p>
             <h2 className="text-5xl font-extrabold">
-              {t("Кінець", "END OF")}{" "}
+              {t("recoveryCenter.launchTitle")}{" "}
               <span className="text-green-300">2025</span>
             </h2>
+          </div>
+        </div>
+      </section>
+
+      {/* Section: Ministry of Health */}
+      <section className="w-full min-h-screen flex items-center justify-center px-6 py-20 bg-[#d5e3dc] text-black">
+        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+          <div>
+            <h2 className="text-3xl font-bold mb-6">
+              {t("recoveryCenter.mohTitle")}
+            </h2>
+            <p className="text-lg">{t("recoveryCenter.mohText")}</p>
+          </div>
+
+          <div className="flex justify-center">
+            <img
+              src="/img/moh-logo.png"
+              alt="Ministry of Health of Ukraine"
+              className="max-h-40 object-contain"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Section: Target Group */}
+      <section className="w-full bg-black text-white px-6 py-20">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
+          <div className="text-left">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t("recoveryCenter.forWhomTitle")}
+            </h2>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            {Array.from({ length: 3 }, (_, i) => (
+              <div
+                key={i}
+                className="bg-green-200 text-black rounded-full px-6 py-3 font-semibold text-lg w-full shadow-md"
+              >
+                {t(`recoveryCenter.forWhom${i + 1}`)}
+              </div>
+            ))}
           </div>
         </div>
       </section>

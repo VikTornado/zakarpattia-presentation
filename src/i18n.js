@@ -1,20 +1,23 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import HttpBackend from "i18next-http-backend";
+import Backend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 
 i18n
-  .use(HttpBackend)
+  .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: "uk",
-    debug: false,
+    fallbackLng: "en", // Якщо не знайдеться переклад, використовуємо англійську
+    debug: true,
     interpolation: {
-      escapeValue: false,
+      escapeValue: false, // Вимикає екранування для React
+    },
+    react: {
+      useSuspense: false, // Для уникнення зависання
     },
     backend: {
-      loadPath: "/locales/{{lng}}/translation.json",
+      loadPath: "/locales/{{lng}}/translation.json", // Шлях до ваших файлів
     },
   });
 
