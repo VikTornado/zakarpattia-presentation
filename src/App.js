@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 
 import { LanguageProvider } from "./LanguageContext";
+// import RecoveryLanding from "./pages/RecoveryLanding";
+
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -71,6 +73,7 @@ function App() {
               <Route path="/education" element={<Education />} />
               <Route path="/minerals" element={<Minerals />} />
               <Route path="/recovery-center" element={<RecoveryCenter />} />
+              {/* <Route path="/recovery-landing" element={<RecoveryLanding />} /> */}
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </main>

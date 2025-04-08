@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import { useLocation, NavLink } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
 import { LanguageContext } from "../LanguageContext";
+import { motion } from "framer-motion";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -83,11 +84,11 @@ function Header() {
       ],
     },
     {
-  labelUk: "Центр 4.5.0",
-  labelEn: "Recovery Center",
-  path: "/recovery-center",
-  subLinks: [],
-},
+      labelUk: "Центр 4.5.0",
+      labelEn: "Recovery Center",
+      path: "/recovery-center",
+      subLinks: [],
+    },
     {
       labelUk: "Контакти",
       labelEn: "Contacts",
@@ -101,6 +102,27 @@ function Header() {
       subLinks: [],
     },
   ];
+
+  const LanguageSwitcher = () => (
+    <div className="hidden lg:flex space-x-2">
+      {[
+        { code: "uk", flag: "🇺🇦" },
+        { code: "en", flag: "🇬🇧" },
+      ].map((lang) => (
+        <motion.button
+          key={lang.code}
+          onClick={() => language !== lang.code && toggleLanguage()}
+          whileTap={{ scale: 0.9 }}
+          whileHover={{ scale: 1.1 }}
+          className={`px-2 py-1 rounded transition ${
+            language === lang.code ? "bg-blue-600" : "bg-gray-700"
+          }`}
+        >
+          {lang.flag}
+        </motion.button>
+      ))}
+    </div>
+  );
 
   return (
     <header className="fixed top-0 w-full bg-[#171836] text-white p-4 flex justify-between items-center z-50 shadow-md">
@@ -166,14 +188,7 @@ function Header() {
         })}
       </nav>
 
-      <div className="hidden lg:block">
-        <button
-          onClick={toggleLanguage}
-          className="bg-blue-500 px-3 py-1 rounded"
-        >
-          {language === "uk" ? "ENG" : "УКР"}
-        </button>
-      </div>
+      <LanguageSwitcher />
 
       {!menuOpen && (
         <button
@@ -195,12 +210,9 @@ function Header() {
 
           {menuLinks.map((link, index) => (
             <div key={index} className="w-full mb-2">
-              {/* Заголовок секції */}
               <div className="text-gray-400 uppercase tracking-wide text-sm px-1">
                 {language === "uk" ? link.labelUk : link.labelEn}
               </div>
-
-              {/* Якщо є підпункти — виводимо їх */}
               {link.subLinks.length > 0 ? (
                 <div className="pl-4">
                   {link.subLinks.map((subLink, subIndex) => (
@@ -236,15 +248,24 @@ function Header() {
             </div>
           ))}
 
-          <button
-            onClick={() => {
-              toggleLanguage();
-              setMenuOpen(false);
-            }}
-            className="mt-4 bg-blue-500 px-3 py-1 rounded w-full"
-          >
-            {language === "uk" ? "ENG" : "УКР"}
-          </button>
+          <div className="flex space-x-4 mt-6">
+            <button
+              onClick={() => language !== "uk" && toggleLanguage()}
+              className={`px-3 py-1 rounded ${
+                language === "uk" ? "bg-blue-600" : "bg-gray-700"
+              }`}
+            >
+              🇺🇦
+            </button>
+            <button
+              onClick={() => language !== "en" && toggleLanguage()}
+              className={`px-3 py-1 rounded ${
+                language === "en" ? "bg-blue-600" : "bg-gray-700"
+              }`}
+            >
+              🇬🇧
+            </button>
+          </div>
         </div>
       )}
     </header>

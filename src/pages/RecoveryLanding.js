@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../LanguageContext";
 
-const RecoveryCenter = () => {
+const RecoveryLanding = () => {
   const { language } = useContext(LanguageContext);
   const t = (uk, en) => (language === "uk" ? uk : en);
 
@@ -12,7 +12,7 @@ const RecoveryCenter = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10">
           <div>
             <h1 className="text-6xl font-bold text-green-300 mb-6">
-              4.5.0
+              4.5.0{" "}
               <span className="block text-3xl font-light mt-2">
                 recovery center
               </span>
@@ -23,8 +23,8 @@ const RecoveryCenter = () => {
             </p>
             <p className="text-white">
               This name conveys the fundamental reassurance that individuals in
-              need of help and medical intervention seek to hear –
-              <strong> RELAX – EVERYTHING WILL BE FINE!</strong>
+              need of help and medical intervention seek to hear –{" "}
+              <strong>RELAX – EVERYTHING WILL BE FINE!</strong>
             </p>
           </div>
 
@@ -43,7 +43,11 @@ const RecoveryCenter = () => {
               <p className="text-gray-300">
                 is associated with a survey icon, signifying that each visitor
                 has their own history, unique characteristics, medical aspects,
-                preferences, wishes, and possibly certain taboos.
+                preferences, wishes, and possibly certain taboos. It’s a
+                questionnaire where all individual aspects are taken into
+                account. Unlike a hospital where the focus is solely on
+                diagnoses and their solutions, we prioritize people! Their
+                stories, perspectives, and thoughts matter.
               </p>
             </div>
           </div>
@@ -55,7 +59,9 @@ const RecoveryCenter = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-5xl font-bold text-green-300 mb-6">
-              PROJECT IDEA
+              PROJECT
+              <br />
+              IDEA
             </h2>
             <p className="text-gray-400">
               A center for comprehensive health restoration, psychological
@@ -203,4 +209,4 @@ const RecoveryCenter = () => {
   );
 };
 
-export default RecoveryCenter;
+export default RecoveryLanding;
