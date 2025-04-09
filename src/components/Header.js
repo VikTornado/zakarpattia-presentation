@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import { useLocation, NavLink } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
+// import { HiArchiveBox } from "react-icons/hi2";
 import { LanguageContext } from "../LanguageContext";
 import { motion } from "framer-motion";
 
@@ -55,34 +56,55 @@ function Header() {
       ],
     },
     {
-      labelUk: "Інвестиції",
-      labelEn: "Investment",
-      path: "/investment",
-      subLinks: [
-        {
-          path: "/opportunities",
-          labelUk: "Можливості",
-          labelEn: "Opportunities",
-        },
-        { path: "/taxation", labelUk: "Оподаткування", labelEn: "Taxation" },
-        {
-          path: "/parks",
-          labelUk: "Індустріальні парки",
-          labelEn: "Industrial Parks",
-        },
-        {
-          path: "/relocated-enterprises",
-          labelUk: "Переміщені підприємства",
-          labelEn: "Relocated Enterprises",
-        },
-        {
-          labelUk: "ІТ-сектор",
-          labelEn: "IT Sector",
-          path: "/it",
-          subLinks: [],
-        },
-      ],
+  labelUk: "Інвестиції",
+  labelEn: "Investment",
+  path: "/investment",
+  subLinks: [
+    {
+      path: "/opportunities",
+      labelUk: "Можливості",
+      labelEn: "Opportunities",
     },
+    // {
+    //   labelUk: "Крафтова продукція",
+    //   labelEn: "Craft Products",
+    //   icon: HiArchiveBox,
+    // },
+        {
+          path: "/catalog",
+          labelUk: "Каталог",
+          labelEn: "Catalog",
+        },
+        {
+          path: "/tasting-halls",
+          labelUk: "Дегустаційні зали",
+          labelEn: "Tasting Halls",
+        },
+  
+  
+    {
+      path: "/taxation",
+      labelUk: "Оподаткування",
+      labelEn: "Taxation",
+    },
+    {
+      path: "/parks",
+      labelUk: "Індустріальні парки",
+      labelEn: "Industrial Parks",
+    },
+    {
+      path: "/relocated-enterprises",
+      labelUk: "Переміщені підприємства",
+      labelEn: "Relocated Enterprises",
+    },
+    {
+      labelUk: "ІТ-сектор",
+      labelEn: "IT Sector",
+      path: "/it",
+      subLinks: [],
+    },
+  ],
+},
     {
       labelUk: "Центр 4.5.0",
       labelEn: "Recovery Center",
@@ -156,7 +178,10 @@ function Header() {
                   }
                 }}
               >
-                {language === "uk" ? link.labelUk : link.labelEn}
+                <div className="flex items-center gap-2">
+                  {link.icon && <link.icon className="text-lg" />}
+                  {language === "uk" ? link.labelUk : link.labelEn}
+                </div>
               </button>
 
               {link.subLinks.length > 0 && (
@@ -178,7 +203,10 @@ function Header() {
                       }
                       onClick={() => setDropdownOpen(null)}
                     >
-                      {language === "uk" ? subLink.labelUk : subLink.labelEn}
+                      <div className="flex items-center gap-2">
+                        {subLink.icon && <subLink.icon className="text-lg" />}
+                        {language === "uk" ? subLink.labelUk : subLink.labelEn}
+                      </div>
                     </NavLink>
                   ))}
                 </div>
@@ -211,7 +239,10 @@ function Header() {
           {menuLinks.map((link, index) => (
             <div key={index} className="w-full mb-2">
               <div className="text-gray-400 uppercase tracking-wide text-sm px-1">
-                {language === "uk" ? link.labelUk : link.labelEn}
+                <div className="flex items-center gap-2">
+                  {link.icon && <link.icon className="text-md" />}
+                  {language === "uk" ? link.labelUk : link.labelEn}
+                </div>
               </div>
               {link.subLinks.length > 0 ? (
                 <div className="pl-4">
@@ -228,7 +259,10 @@ function Header() {
                       }
                       onClick={() => setMenuOpen(false)}
                     >
-                      {language === "uk" ? subLink.labelUk : subLink.labelEn}
+                      <div className="flex items-center gap-2">
+                        {subLink.icon && <subLink.icon className="text-lg" />}
+                        {language === "uk" ? subLink.labelUk : subLink.labelEn}
+                      </div>
                     </NavLink>
                   ))}
                 </div>
@@ -242,7 +276,10 @@ function Header() {
                   }
                   onClick={() => setMenuOpen(false)}
                 >
-                  {language === "uk" ? link.labelUk : link.labelEn}
+                  <div className="flex items-center gap-2">
+                    {link.icon && <link.icon className="text-lg" />}
+                    {language === "uk" ? link.labelUk : link.labelEn}
+                  </div>
                 </NavLink>
               )}
             </div>

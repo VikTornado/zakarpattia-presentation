@@ -30,5 +30,24 @@
     "forWhom1": "Military personnel",
     "forWhom2": "Families of military personnel",
     "forWhom3": "Civilians affected by war"
+  },
+  "craftProducts": {
+    "title": "Craft Products of Zakarpattia",
+    "introText1": "Zakarpattia is a region full of natural beauty and rich traditions, famous for its unique craft products.",
+    "introText2": "Thanks to its favorable location, producers offer a wide range of local goods, including wines, cheeses, honey, and more.",
+    "introText3": "Explore the taste of Zakarpattia and enjoy the diverse culinary history of the region.",
+    "introText4": "Here, you can find everything from wine to jams, cheese to syrups.",
+    "wine": "Wine",
+    "wineDescription": "The wine from Zakarpattia is famous for its unique taste and rich aroma, crafted by local winemakers from the best vineyards.",
+    "cheese": "Cheese",
+    "cheeseDescription": "Zakarpattian cheese is made using centuries-old techniques, offering unique textures and flavors.",
+    "honey": "Honey",
+    "honeyDescription": "Zakarpattian honey is produced by local beekeepers using the purest natural ingredients, offering a range of sweet flavors.",
+    "syrup": "Syrups",
+    "syrupDescription": "The syrups made from local fruits and herbs offer a delicious taste of Zakarpattia's nature.",
+    "jams": "Jams",
+    "jamsDescription": "Traditional Zakarpattian jams are made from fresh, locally sourced fruits and berries.",
+    "mineralWater": "Mineral Water",
+    "mineralWaterDescription": "Zakarpattia is home to some of the best mineral springs, offering healing waters from the heart of the mountains."
   }
 }

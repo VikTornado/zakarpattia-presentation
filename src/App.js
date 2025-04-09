@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 
 import { LanguageProvider } from "./LanguageContext";
-
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import International from "./pages/International";
@@ -31,6 +30,8 @@ import Presentation from "./pages/Presentation";
 import Education from "./pages/Education";
 import Minerals from "./pages/Minerals";
 import RecoveryCenter from "./pages/RecoveryCenter";
+import CatalogPage from './pages/CatalogPage'; // шлях до твого файлу
+import TastingHallsPage from "./pages/TastingHallsPage"; // шлях до твого файлу
 
 function App() {
   const basename =
@@ -71,6 +72,8 @@ function App() {
               <Route path="/education" element={<Education />} />
               <Route path="/minerals" element={<Minerals />} />
               <Route path="/recovery-center" element={<RecoveryCenter />} />
+              <Route path="/catalog" element={<CatalogPage />} />
+              <Route path="/tasting-halls" element={<TastingHallsPage />} />
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </main>
