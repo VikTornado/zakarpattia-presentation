@@ -65,23 +65,21 @@ function Header() {
       labelUk: "Можливості",
       labelEn: "Opportunities",
     },
-    // {
-    //   labelUk: "Крафтова продукція",
-    //   labelEn: "Craft Products",
-    //   icon: HiArchiveBox,
-    // },
-        {
-          path: "/catalog",
-          labelUk: "Каталог",
-          labelEn: "Catalog",
-        },
-        {
-          path: "/tasting-halls",
-          labelUk: "Дегустаційні зали",
-          labelEn: "Tasting Halls",
-        },
-  
-  
+    {
+      path: "/catalog",
+      labelUk: "Каталог",
+      labelEn: "Catalog",
+    },
+    {
+      path: "/tasting-halls",
+      labelUk: "Дегустаційні зали",
+      labelEn: "Tasting Halls",
+    },
+    {
+      path: "/projects",
+      labelUk: "Проєкти",
+      labelEn: "Projects",
+    },
     {
       path: "/taxation",
       labelUk: "Оподаткування",
