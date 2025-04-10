@@ -3,6 +3,7 @@ import { useLocation, NavLink } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
 import { LanguageContext } from "../LanguageContext";
 import { motion } from "framer-motion";
+import { FaMountainSun } from "react-icons/fa6";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -134,7 +135,7 @@ function Header() {
 
   return (
     <header className="fixed top-0 w-full bg-[#171836] text-white p-4 flex justify-between items-center z-50 shadow-md">
-      <div className="text-xl font-bold">Zakarpattia</div>
+      <FaMountainSun size={30} />
 
       <nav className="hidden lg:flex flex-1 justify-center space-x-6">
         {menuLinks.map((link, index) => {
