@@ -1,7 +1,6 @@
 import React, { useState, useContext } from "react";
 import { useLocation, NavLink } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
-// import { HiArchiveBox } from "react-icons/hi2";
 import { LanguageContext } from "../LanguageContext";
 import { motion } from "framer-motion";
 
@@ -65,26 +64,14 @@ function Header() {
           labelUk: "Можливості",
           labelEn: "Opportunities",
         },
-        {
-          path: "/catalog",
-          labelUk: "Каталог",
-          labelEn: "Catalog",
-        },
+        { path: "/catalog", labelUk: "Каталог", labelEn: "Catalog" },
         {
           path: "/tasting-halls",
           labelUk: "Дегустаційні зали",
           labelEn: "Tasting Halls",
         },
-        {
-          path: "/projects",
-          labelUk: "Проєкти",
-          labelEn: "Projects",
-        },
-        {
-          path: "/taxation",
-          labelUk: "Оподаткування",
-          labelEn: "Taxation",
-        },
+        { path: "/projects", labelUk: "Проєкти", labelEn: "Projects" },
+        { path: "/taxation", labelUk: "Оподаткування", labelEn: "Taxation" },
         {
           path: "/parks",
           labelUk: "Індустріальні парки",
@@ -103,13 +90,13 @@ function Header() {
         },
       ],
     },
-{
-  labelUk: "Центр 4.5.0",
-  labelEn: "Recovery Center",
-  external: true,
-  url: "https://450recovery.com.ua",
-  subLinks: [] // <--- це обов'язково!
-},
+    {
+      labelUk: "Центр 4.5.0",
+      labelEn: "Recovery Center",
+      external: true,
+      url: "https://450recovery.com.ua",
+      subLinks: [],
+    },
     {
       labelUk: "Контакти",
       labelEn: "Contacts",
@@ -267,6 +254,19 @@ function Header() {
                     </NavLink>
                   ))}
                 </div>
+              ) : link.external ? (
+                <a
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="py-2 text-md w-full text-left block text-white hover:bg-gray-700 pl-4"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  <div className="flex items-center gap-2">
+                    {link.icon && <link.icon className="text-lg" />}
+                    {language === "uk" ? link.labelUk : link.labelEn}
+                  </div>
+                </a>
               ) : (
                 <NavLink
                   to={link.path}
