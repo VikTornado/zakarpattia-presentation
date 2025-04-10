@@ -56,58 +56,58 @@ function Header() {
       ],
     },
     {
-  labelUk: "Інвестиції",
-  labelEn: "Investment",
-  path: "/investment",
-  subLinks: [
-    {
-      path: "/opportunities",
-      labelUk: "Можливості",
-      labelEn: "Opportunities",
+      labelUk: "Інвестиції",
+      labelEn: "Investment",
+      path: "/investment",
+      subLinks: [
+        {
+          path: "/opportunities",
+          labelUk: "Можливості",
+          labelEn: "Opportunities",
+        },
+        {
+          path: "/catalog",
+          labelUk: "Каталог",
+          labelEn: "Catalog",
+        },
+        {
+          path: "/tasting-halls",
+          labelUk: "Дегустаційні зали",
+          labelEn: "Tasting Halls",
+        },
+        {
+          path: "/projects",
+          labelUk: "Проєкти",
+          labelEn: "Projects",
+        },
+        {
+          path: "/taxation",
+          labelUk: "Оподаткування",
+          labelEn: "Taxation",
+        },
+        {
+          path: "/parks",
+          labelUk: "Індустріальні парки",
+          labelEn: "Industrial Parks",
+        },
+        {
+          path: "/relocated-enterprises",
+          labelUk: "Переміщені підприємства",
+          labelEn: "Relocated Enterprises",
+        },
+        {
+          labelUk: "ІТ-сектор",
+          labelEn: "IT Sector",
+          path: "/it",
+          subLinks: [],
+        },
+      ],
     },
-    {
-      path: "/catalog",
-      labelUk: "Каталог",
-      labelEn: "Catalog",
-    },
-    {
-      path: "/tasting-halls",
-      labelUk: "Дегустаційні зали",
-      labelEn: "Tasting Halls",
-    },
-    {
-      path: "/projects",
-      labelUk: "Проєкти",
-      labelEn: "Projects",
-    },
-    {
-      path: "/taxation",
-      labelUk: "Оподаткування",
-      labelEn: "Taxation",
-    },
-    {
-      path: "/parks",
-      labelUk: "Індустріальні парки",
-      labelEn: "Industrial Parks",
-    },
-    {
-      path: "/relocated-enterprises",
-      labelUk: "Переміщені підприємства",
-      labelEn: "Relocated Enterprises",
-    },
-    {
-      labelUk: "ІТ-сектор",
-      labelEn: "IT Sector",
-      path: "/it",
-      subLinks: [],
-    },
-  ],
-},
     {
       labelUk: "Центр 4.5.0",
       labelEn: "Recovery Center",
-      path: "/recovery-center",
-      subLinks: [],
+      external: true,
+      url: "https://450recovery.com.ua",
     },
     {
       labelUk: "Контакти",
@@ -169,7 +169,9 @@ function Header() {
                     : "text-gray-300 hover:text-white"
                 }`}
                 onClick={() => {
-                  if (link.subLinks.length === 0) {
+                  if (link.external) {
+                    window.open(link.url, "_blank");
+                  } else if (link.subLinks.length === 0) {
                     window.location.href = link.path;
                   } else {
                     setDropdownOpen((prev) => (prev === index ? null : index));
