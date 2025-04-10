@@ -103,12 +103,13 @@ function Header() {
         },
       ],
     },
-    {
-      labelUk: "Центр 4.5.0",
-      labelEn: "Recovery Center",
-      external: true,
-      url: "https://450recovery.com.ua",
-    },
+{
+  labelUk: "Центр 4.5.0",
+  labelEn: "Recovery Center",
+  external: true,
+  url: "https://450recovery.com.ua",
+  subLinks: [] // <--- це обов'язково!
+},
     {
       labelUk: "Контакти",
       labelEn: "Contacts",
