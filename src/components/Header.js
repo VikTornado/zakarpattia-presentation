@@ -53,6 +53,11 @@ function Header() {
         },
         { path: "/minerals", labelUk: "Корисні копалини", labelEn: "Minerals" },
         { path: "/energy", labelUk: "Енергетика", labelEn: "Energy" },
+        {
+          path: "/investment-projects",
+          labelUk: "Інвестпроєкти",
+          labelEn: "Investment Projects",
+        },
       ],
     },
     {
@@ -84,9 +89,9 @@ function Header() {
           labelEn: "Relocated Enterprises",
         },
         {
+          path: "/it",
           labelUk: "ІТ-сектор",
           labelEn: "IT Sector",
-          path: "/it",
           subLinks: [],
         },
       ],

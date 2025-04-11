@@ -82,6 +82,7 @@ export default function ProjectsPage() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 px-4"
+            onClick={() => setSelectedProject(null)} // Клік по фону закриє вікно
           >
             <motion.div
               initial={{ scale: 0.9, opacity: 0 }}
@@ -89,6 +90,7 @@ export default function ProjectsPage() {
               exit={{ scale: 0.9, opacity: 0 }}
               transition={{ duration: 0.3 }}
               className="bg-white dark:bg-gray-800 p-6 rounded-lg max-w-2xl w-full relative shadow-lg"
+              onClick={(e) => e.stopPropagation()} // Клік всередині — не закриває
             >
               <button
                 className="absolute top-2 right-4 text-gray-500 hover:text-red-500 text-2xl"

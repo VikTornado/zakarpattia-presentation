@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "ua": "ТОВ “Управляюча компанія “Вітряні парки України”",
+      "en": "Management company “Wind parks of Ukraine” LLC"
+    },
+    "code": "37944343",
+    "address": {
+      "ua": "Закарпатська область, Ужгородський район, м. Перечин",
+      "en": "Zakarpattia region, Uzhhorod district, Perechyn"
+    },
+    "email": "headoffice@wpu.com.ua",
+    "descriptionFull": {
+      "ua": "Компанія розробляє, будує та обслуговує вітроенергетичні установки, генерує та здійснює постачання електроенергії. Надає повний цикл будівництва вітроелектростанцій в Україні - від проєктування й монтажу до логістики, запуску та довгострокового сервісу. Місія компанії полягає в розвитку відновлюваних джерел енергії в Україні, сприянні енергетичній незалежності країни та створенні нових робочих місць у регіонах. ТОВ «УК «Вітряні парки України» - це один з лідерів у сфері вітроенергетики країни, що впроваджує сучасні стандарти та передові технології у своїй діяльності.",
+      "en": "The company develops, constructs, and maintains wind energy installations, generates, and supplies electricity. It provides a full cycle of wind power plant construction in Ukraine, from design and installation to logistics, commissioning, and long-term service. The company’s mission is to develop renewable energy sources in Ukraine, promote the country’s energy independence, and create new jobs in the regions. ‘‘Management Company ‘Wind Parks of Ukraine’’’ LLC is a leader in the wind energy sector in the country, implementing modern standards and advanced technologies in its operations."
+    },
+    "area": "20000 м²",
+    "relocatedFrom": "м. Краматорськ",
+    "sector": [
+      "Відновлювана енергетика",
+      "Вітроенергетика"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ],
+    "description": {
+      "ua": "Компанія розробляє, будує та обслуговує вітроенергетичні установки, генерує та здійснює постачання електроенергії. Надає повний цикл будівництва вітроелектростанцій в Україні - від проєктування й монтажу до логістики, запуску та довгострокового сервісу. Місія компанії полягає в розвитку відновлюваних джерел енергії в Україні, сприянні енергетичній незалежності країни та створенні нових робочих місць у регіонах. ТОВ «УК «Вітряні парки України» - це один з лідерів у сфері вітроенергетики країни, що впроваджує сучасні стандарти та передові технології у своїй діяльності.",
+      "en": "The company develops, constructs, and maintains wind energy installations, generates, and supplies electricity. It provides a full cycle of wind power plant construction in Ukraine, from design and installation to logistics, commissioning, and long-term service. The company’s mission is to develop renewable energy sources in Ukraine, promote the country’s energy independence, and create new jobs in the regions. ‘‘Management Company ‘Wind Parks of Ukraine’’’ LLC is a leader in the wind energy sector in the country, implementing modern standards and advanced technologies in its operations."
+    }
+  }
+]

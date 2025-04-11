@@ -33,7 +33,7 @@ import RecoveryCenter from "./pages/RecoveryCenter";
 import CatalogPage from './pages/CatalogPage'; // шлях до твого файлу
 import TastingHallsPage from "./pages/TastingHallsPage"; // шлях до твого файлу
 import ProjectsPage from "./pages/ProjectsPage";
-
+import InvestmentProjectsPage from "./pages/InvestmentProjectsPage";
 
 function App() {
   const basename =
@@ -77,6 +77,10 @@ function App() {
               <Route path="/catalog" element={<CatalogPage />} />
               <Route path="/tasting-halls" element={<TastingHallsPage />} />
               <Route path="/projects" element={<ProjectsPage />} />
+              <Route
+                path="/investment-projects"
+                element={<InvestmentProjectsPage />}
+              />
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </main>
