@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/zakarpattia-presentation/static/css/main.1e714f93.css",
-    "main.js": "/zakarpattia-presentation/static/js/main.92cc98d4.js",
+    "main.css": "/zakarpattia-presentation/static/css/main.c34097ed.css",
+    "main.js": "/zakarpattia-presentation/static/js/main.014232da.js",
     "static/media/presentation.mp4": "/zakarpattia-presentation/static/media/presentation.19a1d9d3d4a6a75deca3.mp4",
     "static/media/background-video.mp4": "/zakarpattia-presentation/static/media/background-video.7cae57e215b15f1414d9.mp4",
     "index.html": "/zakarpattia-presentation/index.html",
     "static/media/getFetch.cjs": "/zakarpattia-presentation/static/media/getFetch.7a7a1c81840c96d5a3ea.cjs",
-    "main.1e714f93.css.map": "/zakarpattia-presentation/static/css/main.1e714f93.css.map",
-    "main.92cc98d4.js.map": "/zakarpattia-presentation/static/js/main.92cc98d4.js.map"
+    "main.c34097ed.css.map": "/zakarpattia-presentation/static/css/main.c34097ed.css.map",
+    "main.014232da.js.map": "/zakarpattia-presentation/static/js/main.014232da.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e714f93.css",
-    "static/js/main.92cc98d4.js"
+    "static/css/main.c34097ed.css",
+    "static/js/main.014232da.js"
   ]
 }
