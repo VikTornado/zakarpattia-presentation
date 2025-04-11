@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "ua": "Індустріальний парк «СОЛОМОНОВО»",
+      "en": "Industrial Park \"Solomonovo\""
+    },
+    "location": {
+      "ua": "с. Соломоново, Ужгородський р-н, Закарпатська обл.",
+      "en": "Solomonovo village, Uzhhorod district, Zakarpattia region"
+    },
+    "area": "66.2 га",
+    "employeesPlanned": 6000,
+    "description": {
+      "ua": "Розміщення виробництв галузей середнього та точного машинобудування (автомобілебудування, приладобудування, електронна промисловість і т.д.)",
+      "en": "Location for enterprises of medium and precision engineering (automotive, instrumentation, electronics, etc.)"
+    },
+    "employment": {
+      "employeesNow": 316,
+      "taxesPaid": "23 848 577 ₴",
+      "localBudget": "2 623 848.57 ₴",
+      "pensionFund": "376 433.79 ₴"
+    },
+    "images": ["/images/parks/solomonovo.jpg"]
+  },
+  {
+    "id": 2,
+    "name": {
+      "ua": "Індустріальний парк «МАРАМУРЕШ»",
+      "en": "Industrial Park \"Maramuresh\""
+    },
+    "location": {
+      "ua": "с. Тийсовиця, Тячівський р-н, Закарпатська обл.",
+      "en": "Tysovytsia village, Tyachiv district, Zakarpattia region"
+    },
+    "area": "33.2063 га",
+    "employeesPlanned": 3000,
+    "description": {
+      "ua": "Розміщення виробництв промислових підприємств деревообробної, меблевої, машинобудівної та іншої промисловості.",
+      "en": "Location for industrial enterprises in woodworking, furniture, mechanical engineering, and other industries."
+    },
+    "employment": {
+      "employeesNow": 2,
+      "taxesPaid": "21 022 ₴",
+      "localBudget": "10 729.87 ₴",
+      "pensionFund": "20 108 ₴"
+    },
+    "images": ["/images/parks/maramuresh.jpg"]
+  },
+  {
+    "id": 3,
+    "name": {
+      "ua": "Індустріальний парк «УЖГОРОД»",
+      "en": "Industrial Park \"Uzhhorod\""
+    },
+    "location": {
+      "ua": "м. Ужгород, Ужгородський р-н, Закарпатська обл.",
+      "en": "Uzhhorod city, Uzhhorod district, Zakarpattia region"
+    },
+    "area": "10.1907 га",
+    "employeesPlanned": 500,
+    "description": {
+      "ua": "Розміщення виробництв з виробництва різноманітних будівельних матеріалів та іншої малої продукції.",
+      "en": "Location for the production of various construction materials and other small products."
+    },
+    "employment": {
+      "employeesNow": 2,
+      "taxesPaid": "1 747 193.92 ₴",
+      "localBudget": "1 293 053 ₴",
+      "pensionFund": "2 961 949.96 ₴"
+    },
+    "images": ["/images/parks/uzhhorod.jpg"]
+  },
+  {
+    "id": 4,
+    "name": {
+      "ua": "Індустріальний парк «ВЕСТЕРН ІНДАСТРІАЛ»",
+      "en": "Industrial Park \"Western Industrial\""
+    },
+    "location": {
+      "ua": "с. Буштино, Тячівський р-н, Закарпатська обл.",
+      "en": "Bushtyno village, Tyachiv district, Zakarpattia region"
+    },
+    "area": "21.6866 га",
+    "employeesPlanned": 1100,
+    "description": {
+      "ua": "Розміщення промислових підприємств з виробництва дерев’яних матеріалів та виробництва готових домів модульного типу.",
+      "en": "Location of industrial enterprises for the production of wooden materials and prefabricated modular houses."
+    },
+    "employment": {
+      "employeesNow": 2,
+      "taxesPaid": "49 711.52 ₴",
+      "localBudget": "48 355.1 ₴",
+      "pensionFund": "6 534 ₴"
+    },
+    "images": ["/images/parks/western-industrial.jpg"]
+  },
+  {
+    "id": 5,
+    "name": {
+      "ua": "Індустріальний парк «ФРЕНДЛІ ВІНДТЕХНОЛОДЖІ»",
+      "en": "Industrial Park \"Friendly Wind Technology\""
+    },
+    "location": {
+      "ua": "м. Перечин, Ужгородський р-н, Закарпатська обл.",
+      "en": "Perechyn city, Uzhhorod district, Zakarpattia region"
+    },
+    "area": "16.56 га",
+    "employeesPlanned": 745,
+    "description": {
+      "ua": "Розміщення підприємств з виробництва будівельних металевих конструкцій та частин, електричного устаткування і техніки обслуговування, установлення та монтаж.",
+      "en": "Enterprises producing building metal structures and parts, electrical equipment, and service and installation equipment."
+    },
+    "employment": {
+      "employeesNow": 383,
+      "taxesPaid": "6 710 933.97 ₴",
+      "localBudget": "3 884 170.44 ₴",
+      "pensionFund": "6 226 354.22 ₴"
+    },
+    "images": ["/images/parks/friendly-wind.jpg"]
+  },
+  {
+    "id": 6,
+    "name": {
+      "ua": "Індустріальний парк «БФ Термінал»",
+      "en": "Industrial Park \"BF Terminal\""
+    },
+    "location": {
+      "ua": "смт. Батьово, Берегівський р-н, Закарпатська обл.",
+      "en": "Batyovo, Berehovo district, Zakarpattia region"
+    },
+    "area": "69.6700 га",
+    "employees": "до 2 000 осіб",
+    "description": {
+      "ua": "Перевантажувальний комплекс, що передбачає виробництво (переробку) сільськогосподарської продукції, обробку деревини, виробництво плит МДФ, плит CLT, виробництво ламінату та паркету, логістичні операції з експортно орієнтованою продукцією.",
+      "en": "A transshipment complex providing for the processing of agricultural products, wood processing, production of MDF boards, CLT panels, laminate and parquet production, as well as logistics operations for export-oriented products."
+    },
+    "taxes": {
+      "employees_actual": "37",
+      "paid_taxes": "835 004,48 грн",
+      "local_budget": "317 296,96 грн",
+      "esv": "490 556,06 грн"
+    },
+    "image": ""
+  },
+  {
+    "id": 7,
+    "name": {
+      "ua": "Індустріальний парк «Тячів»",
+      "en": "Industrial Park \"Tyachiv\""
+    },
+    "location": {
+      "ua": "м. Тячів, Тячівський р-н, Закарпатська обл.",
+      "en": "Tyachiv, Tyachiv district, Zakarpattia region"
+    },
+    "area": "61.4661 га",
+    "employees": "до 3 100 осіб",
+    "description": {
+      "ua": "Виробництво скла та виробів з нього, деревообробна промисловість, виготовлення декоративного та будівельного каменю, переробка промислових та побутових відходів.",
+      "en": "Glass and glass product manufacturing, woodworking, production of decorative and building stone, processing of industrial and household waste."
+    },
+    "taxes": {
+      "employees_actual": "0",
+      "paid_taxes": "інформація відсутня",
+      "local_budget": "інформація відсутня",
+      "esv": "інформація відсутня"
+    },
+    "image": ""
+  },
+  {
+    "id": 8,
+    "name": {
+      "ua": "Індустріальний парк «Енерджі Груп»",
+      "en": "Industrial Park \"Energy Group\""
+    },
+    "location": {
+      "ua": "м. Свалява, Мукачівський р-н, Закарпатська обл.",
+      "en": "Svalyava, Mukachevo district, Zakarpattia region"
+    },
+    "area": "10.0278 га",
+    "employees": "до 500 осіб",
+    "description": {
+      "ua": "Виробництво скла та виробів зі скла, виробництво будівельних металевих конструкцій, виробництво вікон та дверей, виробництво інших будівельних матеріалів.",
+      "en": "Glass and glass product manufacturing, metal building structures, window and door production, and other construction materials."
+    },
+    "taxes": {
+      "employees_actual": "17",
+      "paid_taxes": "156 104,67 грн",
+      "local_budget": "23 877,78 грн",
+      "esv": "80 865,75 грн"
+    },
+    "image": ""
+  },
+  {
+    "id": 9,
+    "name": {
+      "ua": "Індустріальний парк «Еко Мукачево»",
+      "en": "Industrial Park \"Eko Mukachevo\""
+    },
+    "location": {
+      "ua": "м. Мукачево, Мукачівський р-н, Закарпатська обл.",
+      "en": "Mukachevo, Mukachevo district, Zakarpattia region"
+    },
+    "area": "23.0915 га",
+    "employees": "до 900 осіб",
+    "description": {
+      "ua": "Розміщення промислових підприємств з виробництва паперу та паперових виробів, готової полімерної продукції, текстилю та електротехнічного устаткування.",
+      "en": "Placement of industrial enterprises producing paper and paper products, finished polymer products, textiles, and electrical equipment."
+    },
+    "taxes": {
+      "employees_actual": "2",
+      "paid_taxes": "64 711,52 грн",
+      "local_budget": "48 355,01 грн",
+      "esv": "6 534,00 грн"
+    },
+    "image": ""
+  },
+  {
+    "id": 10,
+    "name": {
+      "ua": "Індустріальний парк «Мужієво»",
+      "en": "Industrial Park \"Muzhiyevo\""
+    },
+    "location": {
+      "ua": "м. Мужієво, Берегівський р-н, Закарпатська обл.",
+      "en": "Muzhiyevo, Berehovo district, Zakarpattia region"
+    },
+    "area": "30.5655 га",
+    "employees": "до 427 осіб",
+    "description": {
+      "ua": "Виробництво харчових продуктів; оброблення деревини та виготовлення виробів з деревини та корка, крім меблів; виробництво паперу та паперових виробів; неметалевої мінеральної продукції; виробництво готових металевих виробів.",
+      "en": "Production of food products; wood processing and manufacturing of wood and cork products (excluding furniture); production of paper and paper products; non-metallic mineral products; production of fabricated metal products."
+    },
+    "taxes": {
+      "employees_actual": "2",
+      "paid_taxes": "90 000,00 грн",
+      "local_budget": "інформація відсутня",
+      "esv": "інформація відсутня"
+    },
+    "image": ""
+  }
+]

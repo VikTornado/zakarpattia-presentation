@@ -18,7 +18,7 @@ import Industry from "./pages/Industry";
 import Agriculture from "./pages/Agriculture";
 import Economy from "./pages/Economy";
 import Opportunities from "./pages/Opportunities";
-import Parks from "./pages/Parks";
+import IndustrialParksPage from "./pages/IndustrialParksPage";
 import Investments from "./pages/Investments";
 import RelocatedEnterprises from "./pages/RelocatedEnterprises";
 import Contacts from "./pages/Contacts";
@@ -33,7 +33,7 @@ import RecoveryCenter from "./pages/RecoveryCenter";
 import CatalogPage from './pages/CatalogPage'; // шлях до твого файлу
 import TastingHallsPage from "./pages/TastingHallsPage"; // шлях до твого файлу
 import ProjectsPage from "./pages/ProjectsPage";
-
+import InvestmentProjectsPage from "./pages/InvestmentProjectsPage";
 
 function App() {
   const basename =
@@ -61,7 +61,7 @@ function App() {
               <Route path="/presentation" element={<Presentation />} />
               <Route path="/it" element={<IT />} />
               <Route path="/opportunities" element={<Opportunities />} />
-              <Route path="/parks" element={<Parks />} />
+              <Route path="/parks" element={<IndustrialParksPage />} />
               <Route
                 path="/relocated-enterprises"
                 element={<RelocatedEnterprises />}
@@ -77,6 +77,10 @@ function App() {
               <Route path="/catalog" element={<CatalogPage />} />
               <Route path="/tasting-halls" element={<TastingHallsPage />} />
               <Route path="/projects" element={<ProjectsPage />} />
+              <Route
+                path="/investment-projects"
+                element={<InvestmentProjectsPage />}
+              />
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </main>
