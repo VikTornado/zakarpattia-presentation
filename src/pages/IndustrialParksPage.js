@@ -33,11 +33,13 @@ export default function IndustrialParksPage() {
             </p>
             <p className="text-sm mb-1">
               <strong>
-                {language === "uk" ? "Працівників до:" : "Employees up to:"}
+                {language === "uk" ? "Працівників до:" : "Capacity:"}
               </strong>{" "}
-              {park.capacity}
+              {park.employeesPlanned || park.employees || "-"}
             </p>
-            <p className="text-sm">{park.shortDescription[language]}</p>
+            <p className="text-sm">
+              {park.description[language]?.slice(0, 100)}...
+            </p>
           </div>
         ))}
       </div>
@@ -48,7 +50,7 @@ export default function IndustrialParksPage() {
           onClick={() => setSelectedPark(null)}
         >
           <div
-            className="bg-white p-6 rounded-xl max-w-2xl w-full relative"
+            className="bg-white p-6 rounded-xl max-w-2xl w-full relative overflow-y-auto max-h-[90vh]"
             onClick={(e) => e.stopPropagation()}
           >
             <button
@@ -73,23 +75,50 @@ export default function IndustrialParksPage() {
               <strong>
                 {language === "uk" ? "Працівників до:" : "Capacity:"}
               </strong>{" "}
-              {selectedPark.capacity}
+              {selectedPark.employeesPlanned || selectedPark.employees || "-"}
             </p>
-            <p className="mb-2 whitespace-pre-line">
+            <p className="mb-4 whitespace-pre-line">
               <strong>{language === "uk" ? "Опис:" : "Description:"}</strong>
               <br />
               {selectedPark.description[language]}
             </p>
-            {selectedPark.stats?.[language] && (
-              <p className="text-sm text-gray-600 whitespace-pre-line">
-                {selectedPark.stats[language]}
-              </p>
+
+            {selectedPark.employment && (
+              <div className="mt-4 text-sm text-gray-700 space-y-1">
+                <p>
+                  <strong>
+                    {language === "uk"
+                      ? "Працівників зараз:"
+                      : "Employees now:"}
+                  </strong>{" "}
+                  {selectedPark.employment.employeesNow}
+                </p>
+                <p>
+                  <strong>
+                    {language === "uk" ? "Сплачені податки:" : "Taxes paid:"}
+                  </strong>{" "}
+                  {selectedPark.employment.taxesPaid}
+                </p>
+                <p>
+                  <strong>
+                    {language === "uk" ? "Місцевий бюджет:" : "Local budget:"}
+                  </strong>{" "}
+                  {selectedPark.employment.localBudget}
+                </p>
+                <p>
+                  <strong>
+                    {language === "uk" ? "Пенсійний фонд:" : "Pension fund:"}
+                  </strong>{" "}
+                  {selectedPark.employment.pensionFund}
+                </p>
+              </div>
             )}
-            {selectedPark.image && (
+
+            {(selectedPark.images || selectedPark.image) && (
               <img
-                src={selectedPark.image}
+                src={selectedPark.images?.[0] || selectedPark.image}
                 alt={selectedPark.name[language]}
-                className="mt-4 rounded-lg"
+                className="mt-6 rounded-lg w-full object-cover"
               />
             )}
           </div>
