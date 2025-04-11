@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "ua": "Індустріальний парк 10",
+      "en": "Industrial Park 10"
+    },
+    "location": {
+      "ua": "Закарпатська область, парк 10",
+      "en": "Zakarpattia region, park 10"
+    },
+    "area": "10,03 га",
+    "capacity": "до 500 працівників",
+    "shortDescription": {
+      "ua": "Скління, ПВХ, алюміній, склопакети, вікна, двері",
+      "en": "Glass production, PVC, aluminum, windows and doors"
+    },
+    "description": {
+      "ua": "Функціональним призначенням індустріального парку є виробництво, гартування та обробка скла, склопакетів, вікон, дверей, вітражів, ПВХ профілів, металопластикових конструкцій.",
+      "en": "The industrial park is intended for glass production, tempering, processing, double-glazed windows, PVC profiles, metal-plastic constructions, etc."
+    },
+    "image": "/images/parks/energy-group.jpg"
+  },
+  {
+    "id": 2,
+    "name": {
+      "ua": "Індустріальний парк 10",
+      "en": "Industrial Park 10"
+    },
+    "location": {
+      "ua": "Закарпатська область, парк 10",
+      "en": "Zakarpattia region, park 10"
+    },
+    "area": "10,03 га",
+    "capacity": "до 500 працівників",
+    "shortDescription": {
+      "ua": "Скління, ПВХ, алюміній, склопакети, вікна, двері",
+      "en": "Glass production, PVC, aluminum, windows and doors"
+    },
+    "description": {
+      "ua": "Функціональним призначенням індустріального парку є виробництво, гартування та обробка скла, склопакетів, вікон, дверей, вітражів, ПВХ профілів, металопластикових конструкцій.",
+      "en": "The industrial park is intended for glass production, tempering, processing, double-glazed windows, PVC profiles, metal-plastic constructions, etc."
+    },
+    "image": "/images/parks/park-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": {
+      "ua": "Індустріальний парк 10",
+      "en": "Industrial Park 10"
+    },
+    "location": {
+      "ua": "Закарпатська область, парк 10",
+      "en": "Zakarpattia region, park 10"
+    },
+    "area": "10,03 га",
+    "capacity": "до 500 працівників",
+    "shortDescription": {
+      "ua": "Скління, ПВХ, алюміній, склопакети, вікна, двері",
+      "en": "Glass production, PVC, aluminum, windows and doors"
+    },
+    "description": {
+      "ua": "Функціональним призначенням індустріального парку є виробництво, гартування та обробка скла, склопакетів, вікон, дверей, вітражів, ПВХ профілів, металопластикових конструкцій.",
+      "en": "The industrial park is intended for glass production, tempering, processing, double-glazed windows, PVC profiles, metal-plastic constructions, etc."
+    },
+    "image": "/images/parks/park-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": {
+      "ua": "Індустріальний парк 10",
+      "en": "Industrial Park 10"
+    },
+    "location": {
+      "ua": "Закарпатська область, парк 10",
+      "en": "Zakarpattia region, park 10"
+    },
+    "area": "10,03 га",
+    "capacity": "до 500 працівників",
+    "shortDescription": {
+      "ua": "Скління, ПВХ, алюміній, склопакети, вікна, двері",
+      "en": "Glass production, PVC, aluminum, windows and doors"
+    },
+    "description": {
+      "ua": "Функціональним призначенням індустріального парку є виробництво, гартування та обробка скла, склопакетів, вікон, дверей, вітражів, ПВХ профілів, металопластикових конструкцій.",
+      "en": "The industrial park is intended for glass production, tempering, processing, double-glazed windows, PVC profiles, metal-plastic constructions, etc."
+    },
+    "image": "/images/parks/park-4.jpg"
+  },
+  {
+    "id": 5,
+    "name": {
+      "ua": "Індустріальний парк 10",
+      "en": "Industrial Park 10"
+    },
+    "location": {
+      "ua": "Закарпатська область, парк 10",
+      "en": "Zakarpattia region, park 10"
+    },
+    "area": "10,03 га",
+    "capacity": "до 500 працівників",
+    "shortDescription": {
+      "ua": "Скління, ПВХ, алюміній, склопакети, вікна, двері",
+      "en": "Glass production, PVC, aluminum, windows and doors"
+    },
+    "description": {
+      "ua": "Функціональним призначенням індустріального парку є виробництво, гартування та обробка скла, склопакетів, вікон, дверей, вітражів, ПВХ профілів, металопластикових конструкцій.",
+      "en": "The industrial park is intended for glass production, tempering, processing, double-glazed windows, PVC profiles, metal-plastic constructions, etc."
+    },
+    "image": "/images/parks/park-5.jpg"
+  },
+  {
+    "id": 6,
+    "name": {
+      "ua": "Індустріальний парк 10",
+      "en": "Industrial Park 10"
+    },
+    "location": {
+      "ua": "Закарпатська область, парк 10",
+      "en": "Zakarpattia region, park 10"
+    },
+    "area": "10,03 га",
+    "capacity": "до 500 працівників",
+    "shortDescription": {
+      "ua": "Скління, ПВХ, алюміній, склопакети, вікна, двері",
+      "en": "Glass production, PVC, aluminum, windows and doors"
+    },
+    "description": {
+      "ua": "Функціональним призначенням індустріального парку є виробництво, гартування та обробка скла, склопакетів, вікон, дверей, вітражів, ПВХ профілів, металопластикових конструкцій.",
+      "en": "The industrial park is intended for glass production, tempering, processing, double-glazed windows, PVC profiles, metal-plastic constructions, etc."
+    },
+    "image": "/images/parks/park-6.jpg"
+  },
+  {
+    "id": 7,
+    "name": {
+      "ua": "Індустріальний парк 10",
+      "en": "Industrial Park 10"
+    },
+    "location": {
+      "ua": "Закарпатська область, парк 10",
+      "en": "Zakarpattia region, park 10"
+    },
+    "area": "10,03 га",
+    "capacity": "до 500 працівників",
+    "shortDescription": {
+      "ua": "Скління, ПВХ, алюміній, склопакети, вікна, двері",
+      "en": "Glass production, PVC, aluminum, windows and doors"
+    },
+    "description": {
+      "ua": "Функціональним призначенням індустріального парку є виробництво, гартування та обробка скла, склопакетів, вікон, дверей, вітражів, ПВХ профілів, металопластикових конструкцій.",
+      "en": "The industrial park is intended for glass production, tempering, processing, double-glazed windows, PVC profiles, metal-plastic constructions, etc."
+    },
+    "image": "/images/parks/park-7.jpg"
+  },
+  {
+    "id": 8,
+    "name": {
+      "ua": "Індустріальний парк 10",
+      "en": "Industrial Park 10"
+    },
+    "location": {
+      "ua": "Закарпатська область, парк 10",
+      "en": "Zakarpattia region, park 10"
+    },
+    "area": "10,03 га",
+    "capacity": "до 500 працівників",
+    "shortDescription": {
+      "ua": "Скління, ПВХ, алюміній, склопакети, вікна, двері",
+      "en": "Glass production, PVC, aluminum, windows and doors"
+    },
+    "description": {
+      "ua": "Функціональним призначенням індустріального парку є виробництво, гартування та обробка скла, склопакетів, вікон, дверей, вітражів, ПВХ профілів, металопластикових конструкцій.",
+      "en": "The industrial park is intended for glass production, tempering, processing, double-glazed windows, PVC profiles, metal-plastic constructions, etc."
+    },
+    "image": "/images/parks/park-8.jpg"
+  },
+  {
+    "id": 9,
+    "name": {
+      "ua": "Індустріальний парк 10",
+      "en": "Industrial Park 10"
+    },
+    "location": {
+      "ua": "Закарпатська область, парк 10",
+      "en": "Zakarpattia region, park 10"
+    },
+    "area": "10,03 га",
+    "capacity": "до 500 працівників",
+    "shortDescription": {
+      "ua": "Скління, ПВХ, алюміній, склопакети, вікна, двері",
+      "en": "Glass production, PVC, aluminum, windows and doors"
+    },
+    "description": {
+      "ua": "Функціональним призначенням індустріального парку є виробництво, гартування та обробка скла, склопакетів, вікон, дверей, вітражів, ПВХ профілів, металопластикових конструкцій.",
+      "en": "The industrial park is intended for glass production, tempering, processing, double-glazed windows, PVC profiles, metal-plastic constructions, etc."
+    },
+    "image": "/images/parks/park-9.jpg"
+  },
+  {
+    "id": 10,
+    "name": {
+      "ua": "Індустріальний парк 10",
+      "en": "Industrial Park 10"
+    },
+    "location": {
+      "ua": "Закарпатська область, парк 10",
+      "en": "Zakarpattia region, park 10"
+    },
+    "area": "10,03 га",
+    "capacity": "до 500 працівників",
+    "shortDescription": {
+      "ua": "Скління, ПВХ, алюміній, склопакети, вікна, двері",
+      "en": "Glass production, PVC, aluminum, windows and doors"
+    },
+    "description": {
+      "ua": "Функціональним призначенням індустріального парку є виробництво, гартування та обробка скла, склопакетів, вікон, дверей, вітражів, ПВХ профілів, металопластикових конструкцій.",
+      "en": "The industrial park is intended for glass production, tempering, processing, double-glazed windows, PVC profiles, metal-plastic constructions, etc."
+    },
+    "image": "/images/parks/park-10.jpg"
+  }
+]

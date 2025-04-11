@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { useLocation, NavLink } from "react-router-dom";
+import { useLocation, NavLink, useNavigate } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
 import { LanguageContext } from "../LanguageContext";
 import { motion } from "framer-motion";
@@ -9,6 +9,7 @@ function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(null);
   const location = useLocation();
+  const navigate = useNavigate();
 
   const { language, toggleLanguage } = useContext(LanguageContext);
 
@@ -92,7 +93,6 @@ function Header() {
           path: "/it",
           labelUk: "ІТ-сектор",
           labelEn: "IT Sector",
-          subLinks: [],
         },
       ],
     },
@@ -166,7 +166,7 @@ function Header() {
                   if (link.external) {
                     window.open(link.url, "_blank");
                   } else if (link.subLinks.length === 0) {
-                    window.location.href = link.path;
+                    navigate(link.path);
                   } else {
                     setDropdownOpen((prev) => (prev === index ? null : index));
                   }

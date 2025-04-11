@@ -18,7 +18,7 @@ import Industry from "./pages/Industry";
 import Agriculture from "./pages/Agriculture";
 import Economy from "./pages/Economy";
 import Opportunities from "./pages/Opportunities";
-import Parks from "./pages/Parks";
+import IndustrialParksPage from "./pages/IndustrialParksPage";
 import Investments from "./pages/Investments";
 import RelocatedEnterprises from "./pages/RelocatedEnterprises";
 import Contacts from "./pages/Contacts";
@@ -61,7 +61,7 @@ function App() {
               <Route path="/presentation" element={<Presentation />} />
               <Route path="/it" element={<IT />} />
               <Route path="/opportunities" element={<Opportunities />} />
-              <Route path="/parks" element={<Parks />} />
+              <Route path="/parks" element={<IndustrialParksPage />} />
               <Route
                 path="/relocated-enterprises"
                 element={<RelocatedEnterprises />}
