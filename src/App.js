@@ -30,8 +30,8 @@ import Presentation from "./pages/Presentation";
 import Education from "./pages/Education";
 import Minerals from "./pages/Minerals";
 import RecoveryCenter from "./pages/RecoveryCenter";
-import CatalogPage from './pages/CatalogPage'; // шлях до твого файлу
-import TastingHallsPage from "./pages/TastingHallsPage"; // шлях до твого файлу
+import CatalogPage from './pages/CatalogPage';
+import TastingHallsPage from "./pages/TastingHallsPage";
 import ProjectsPage from "./pages/ProjectsPage";
 
 
