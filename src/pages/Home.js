@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
-import videoBg from "../assets/background-video.mp4";
+// import videoBg from "../assets/public/video/wind2.mp4";
+import videoBg from "../assets/video/wind3.mp4";
 import { LanguageContext } from "../LanguageContext";
 
 function Home() {

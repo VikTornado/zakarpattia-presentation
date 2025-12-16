@@ -1,0 +1,808 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "ua": "ТОВ “Управляюча компанія “Вітряні парки України”",
+      "en": "Management company “Wind parks of Ukraine” LLC"
+    },
+    "code": "37944343",
+    "address": {
+      "ua": "Закарпатська область, Ужгородський район, м. Перечин",
+      "en": "Zakarpattia region, Uzhhorod district, Perechyn"
+    },
+    "email": "headoffice@wpu.com.ua",
+    "descriptionFull": {
+      "ua": "Компанія розробляє, будує та обслуговує вітроенергетичні установки, генерує та здійснює постачання електроенергії. Надає повний цикл будівництва вітроелектростанцій в Україні - від проєктування й монтажу до логістики, запуску та довгострокового сервісу. Місія компанії полягає в розвитку відновлюваних джерел енергії в Україні, сприянні енергетичній незалежності країни та створенні нових робочих місць у регіонах. ТОВ «УК «Вітряні парки України» - це один з лідерів у сфері вітроенергетики країни, що впроваджує сучасні стандарти та передові технології у своїй діяльності.",
+      "en": "The company develops, constructs, and maintains wind energy installations, generates, and supplies electricity. It provides a full cycle of wind power plant construction in Ukraine, from design and installation to logistics, commissioning, and long-term service. The company’s mission is to develop renewable energy sources in Ukraine, promote the country’s energy independence, and create new jobs in the regions. ‘‘Management Company ‘Wind Parks of Ukraine’’’ LLC is a leader in the wind energy sector in the country, implementing modern standards and advanced technologies in its operations."
+    },
+    "area": "20000 м²",
+    "relocatedFrom": "м. Краматорськ",
+    "sector": [
+      "Відновлювана енергетика",
+      "Вітроенергетика"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 2,
+    "name": {
+      "ua": "Індустріальний парк „Френдлі Віндтехнолоджі”",
+      "en": "Industrial Park ‘‘Friendly Wind Technology’’"
+    },
+    "code": "45343139",
+    "address": {
+      "ua": "Закарпатська область, Ужгородський район, м. Перечин",
+      "en": "Zakarpattia region, Uzhhorod district, Perechyn"
+    },
+    "email": "info@friendlytechnology.com.ua",
+    "descriptionFull": {
+      "ua": "Після релокації бізнесу з Краматорська на Закарпаття, компанія стала ініціатором створення індустріального парку на заході України, функціональним призначенням якого є розміщення підприємств із виробництва будівельних металевих конструкцій та їх частин, виробництво електричного устаткування, їх ремонт і технічне обслуговування, установлення та монтаж, виробництво турбін для вітряних електростанцій. Індустріальний парк спеціалізується на енергетичному машинобудуванні; підсилює енергетичну безпеку в регіоні та Україні загалом; є складовою частиною реалізації на Закарпатті Енергетичної стратегії України до 2050 року.",
+      "en": "After relocating its business from Kramatorsk to Zakarpattia, the company initiated the creation of an industrial park in western Ukraine, which is designed to accommodate enterprises producing metal building structures and their parts, electrical equipment, their repair and maintenance, installation and assembly, and turbines for wind power plants. The industrial park specializes in power engineering; it strengthens energy security in the region and Ukraine as a whole; it is an integral part of the implementation of the Energy Strategy of Ukraine until 2050 in Zakarpattia."
+    },
+    "area": "16.56 га",
+    "relocatedFrom": "м. Краматорськ",
+    "sector": [
+      "Енергетичне машинобудування",
+      "Вітроенергетика"
+    ],
+    "category": [
+      "Індустріальні парки"
+    ]
+  },
+  {
+    "id": 3,
+    "name": {
+      "ua": "Індустріальний парк „Тячів”",
+      "en": "Industrial Park ‘‘Tyachiv’’"
+    },
+    "code": "45491184",
+    "address": {
+      "ua": "Закарпатська область, Тячівський район, м. Тячів",
+      "en": "Zakarpattia region, Tyachiv district, Tyachiv"
+    },
+    "email": "miskrada@tyachiv-citi.gov.ua",
+    "descriptionFull": {
+      "ua": "ІП ‘‘Тячів” передбачає створення промислових підприємств наступних галузей: виробництво скла та виробів зі скла (один з ключових резидентів планує будівництво першого в Україні заводу з виробництва листового скла (корпорація UKRGLASS)); деревопереробна промисловість; обробка, оздоблення та різка декоративного та будівельного каменю; науково-технічна діяльність, діяльність у сфері інформації і телекомунікацій; переробки промислових та/або побутових відходів (крім захоронення відходів); альтернативна енергетика, зберігання енергії.",
+      "en": "The ‘‘Tyachiv’’ Industrial Park envisages the establishment of industrial enterprises in the following sectors: glass and glass products (one of the key residents plans to build the first Ukrainian plant for the production of sheet glass (UKRGLASS Corporation)); wood processing industry; processing, finishing and cutting of decorative and construction stone; scientific and technical activities, activities in the field of information and telecommunications; processing of industrial and/or household waste (except for waste disposal); alternative energy, energy storage."
+    },
+    "area": "61.4661 га",
+    "relocatedFrom": null,
+    "sector": [
+      "Склозавод",
+      "Індустріальні рішення"
+    ],
+    "category": [
+      "Індустріальні парки"
+    ]
+  },
+  {
+    "id": 4,
+    "name": {
+      "ua": "ПрАТ ‘‘Аджакс Сістемз’’",
+      "en": "‘‘Ajax Systems’’ PJSC"
+    },
+    "code": "42593133",
+    "address": {
+      "ua": "Закарпатська область, Берегівський район, м. Берегово",
+      "en": "Zakarpattia region, Berehovo district, Berehovо"
+    },
+    "email": "support@ajax.systems",
+    "descriptionFull": {
+      "ua": "Основний вид діяльності - розробка і виробництво бездротових систем безпеки із можливостями розумного дому, компанія повного циклу від генерації ідей та розробки до масового виробництва; виробництво електроніки, зокрема систем безпеки. Ajax Systems - міжнародний бізнес, присутній вже у 169 країнах світу. Та коріння і завзяття команди - в Україні. Від самого початку Ajax Systems була компанією викликів, але ніхто не розраховував, що новим викликом стане повномасштабна війна. І навіть це не завадило бізнесу зростати, постійно працювати з партнерами та допомагати наближенню перемоги. У компанії 900 000 клієнтів із більш ніж 120 країн.",
+      "en": "Core business - development and production of wireless security systems with smart home capabilities, a full-cycle company from idea generation and development to mass production; production of electronics, including security systems. Ajax Systems is an international business with a presence in 169 countries. However, the team’s roots and passion are in Ukraine. From the very beginning, Ajax Systems has been a company of challenges, but no one expected that a full-scale war would become a new challenge. And even this did not prevent the business from growing, constantly working with partners and helping to bring victory closer. The company has 900,000 customers from more than 120 countries."
+    },
+    "area": null,
+    "relocatedFrom": "м. Київ",
+    "sector": [
+      "Електроніка",
+      "Системи безпеки"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 5,
+    "name": {
+      "ua": "Індустріальний парк ‘‘Енерджі Груп”",
+      "en": "Industrial park ‘‘Energy Group’’"
+    },
+    "code": "45383213",
+    "address": {
+      "ua": "Закарпатська область, Мукачівський район, м. Свалява",
+      "en": "Zakarpattia region, Mukachevo district, Svalyava"
+    },
+    "email": "mail.tovvdl@gmail.com",
+    "descriptionFull": {
+      "ua": "Функціональним призначенням індустріального парку є виробництво, гартування та обробка скла, виробництво готової продукції – склопакети, вікна, двері, вітражі, формування й оброблення листового скла, виробництво будівельних металевих конструкцій і частин конструкцій, виробництво віконного профілю з ПВХ, металопластикових та алюмінієвих конструкцій для вікон.",
+      "en": "The functional purpose of the industrial park is the production, tempering and processing of glass, the production of finished products - double-glazed windows, windows, doors, stained-glass windows, etc., the formation and processing of sheet glass, the production of building metal structures and parts of structures, the production of PVC window profiles, metal-plastic and aluminum structures for windows."
+    },
+    "area": "10.0278 га",
+    "relocatedFrom": null,
+    "sector": [
+      "Склопродукція",
+      "Будматеріали"
+    ],
+    "category": [
+      "Індустріальні парки"
+    ]
+  },
+  {
+    "id": 6,
+    "name": {
+      "ua": "Індустріальний парк ‘‘БФ Термінал”",
+      "en": "Industrial Park ‘‘BF Terminal’’"
+    },
+    "code": "36077167",
+    "address": {
+      "ua": "Закарпатська область, Берегівський район, селище Батьово",
+      "en": "Zakarpattia region, Berehovo district, Batyovo"
+    },
+    "email": "pv@bfgroup.kiev.ua",
+    "descriptionFull": {
+      "ua": "Функціональним призначенням індустріального парку є розміщення підприємств з лісопильного та стругального виробництва, виготовлення виробів з деревини, корка, соломи та рослинних матеріалів для плетіння, виробництво меблів, виробництво плит МДФ, плит CLT. На території парку працюватиме перевантажувальний комплекс.",
+      "en": "The industrial park is designated for the placement of enterprises involved in sawmill and planing production, manufacturing of wood products, cork, straw, and plant materials for weaving, furniture production, MDF board manufacturing, and CLT panels. The park will also feature a transshipment complex."
+    },
+    "area": "2500 м²",
+    "relocatedFrom": null,
+    "sector": [
+      "Деревообробка",
+      "Індустріальні парки"
+    ],
+    "category": [
+      "Індустріальні парки"
+    ]
+  },
+  {
+    "id": 7,
+    "name": {
+      "ua": "ПрАТ ‘‘Сентравіс продакшн Юкрейн’’",
+      "en": "‘‘Centravis production Ukraine’’ PJSC"
+    },
+    "code": "30926946",
+    "address": {
+      "ua": "Закарпатська область, Ужгородський район, м. Ужгород",
+      "en": "Zakarpattia region, Uzhhorod district, Uzhhorod"
+    },
+    "email": "communications@centravis.com",
+    "descriptionFull": {
+      "ua": "Компанія спеціалізується на виробництві труб, порожнистих профілів і фітингів зі сталі. Підприємство є одним із найбільших в Європі спеціалізованих підприємств з виробництва безшовних нержавіючих труб, які застосовуються в автомобілебудуванні, нафтохімічній та газовій промисловості, атомній та тепловій енергетиці, суднобудуванні, аерокосмічній галузі.",
+      "en": "The company specializes in the production of pipes, hollow sections and fittings made of steel. The company is one of the largest specialized enterprises in Europe for the production of seamless stainless steel pipes, which are used in the automotive industry, petrochemical and gas industries, nuclear and thermal power, shipbuilding, and aerospace."
+    },
+    "area": "5000 м²",
+    "relocatedFrom": "м. Нікополь",
+    "sector": [
+      "Металургія",
+      "Нержавіючі труби"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 8,
+    "name": {
+      "ua": "ТОВ ‘‘Сотон’’",
+      "en": "‘‘Soton’’ LLC"
+    },
+    "code": "44821134",
+    "address": {
+      "ua": "Закарпатська область, Ужгородський район, м. Ужгород",
+      "en": "Zakarpattia region, Uzhhorod district, Uzhhorod"
+    },
+    "email": "info@soton.com.ua",
+    "descriptionFull": {
+      "ua": "Основний вид діяльності - виробництво полікарбонатних листів. Компанія успішно працює на ринку полікарбонатних листів з 2003 року. Продуктова лінійка розділена на монолітні і стільникові полікарбонатні листи, виплавлені методом екструзії, загальною потужністю виробництва 12 000 тонн на рік. Виробництво здійснюється на сучасному європейському обладнанні Omipa (Італія) і Kuhne Group (Німеччина). Асортимент продукції монолітного (монолітні листи поєднують у собі високу ударостійкість та оптичну прозорість) і стільникового полікарбонату (має високу надійність, високу світлопроникність, пожежну безпечність) досить широкий для задоволення всіх потреб клієнта.",
+      "en": "The main activity is the production of polycarbonate sheets. The company has been successfully operating in the market of polycarbonate sheets since 2003. The product line is divided into monolithic and honeycomb polycarbonate sheets, smelted by extrusion, with a total production capacity of 12,000 tons per year. Production is carried out on modern European equipment of Omipa (Italy) and Kuhne Group (Germany). The range of products of monolithic (monolithic sheets combine high impact resistance and optical transparency) and cellular polycarbonate (has high reliability, high light transmission, fire safety) is wide enough to meet all the needs of the client."
+    },
+    "area": "2500 м²",
+    "relocatedFrom": "м. Дніпро",
+    "sector": [
+      "Полімери",
+      "Будівельні матеріали"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 9,
+    "name": {
+      "ua": "ТОВ “Леда Вест”",
+      "en": "‘‘Leda West’’ LLC"
+    },
+    "code": "44794546",
+    "address": {
+      "ua": "Закарпатська область, Берегівський район, м. Берегово",
+      "en": "Zakarpattia region, Berehovo district, Berehovо"
+    },
+    "email": "office@ledasteel.com",
+    "descriptionFull": {
+      "ua": "Основний асортимент компанії - це металеві контейнери та навісне обладнання для автонавантажувачів. Компанія також співпрацює з іноземними клієнтами по аутсорсингових послугах. Підприємство співпрацює з клієнтами майже по всій Європі. Основним видом діяльності є виробництво металоконструкцій на експорт (металеві контейнери, траншейні ковші, логістичне обладнання).",
+      "en": "The company’s main products are metal containers and attachments for forklifts. The company also collaborates with foreign clients on outsourcing services. It works with clients almost all over Europe. The main activity is the production of metal structures for export (metal containers, trench buckets, logistics equipment)."
+    },
+    "area": "Берегово – 3100 м² (2 цеха); Ужгород – 3500 м² (планується оренда)",
+    "relocatedFrom": "м. Харків",
+    "sector": [
+      "Металоконструкції",
+      "Логістика"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 10,
+    "name": {
+      "ua": "ТОВ ‘‘ТСС Україна’’",
+      "en": "‘‘TSC Ukraine’’ LLC"
+    },
+    "code": "45214478",
+    "address": {
+      "ua": "Закарпатська область, Виробничий цех №1: м. Берегово; Виробничий цех №2: м. Ужгород",
+      "en": "Zakarpattia region, Production workshop No. 1: Berehovo; Production workshop No. 2: Uzhhorod"
+    },
+    "email": "tsc.ukraine@ukr.net",
+    "descriptionFull": {
+      "ua": "Це молоде підприємство, що спеціалізується на виробництві електрозварних труб різної форми (круглі, квадратні, прямокутні, плоскоовальні), товщина стінки яких від 0,8 до 2 міліметрів; сітчастих контейнерів для транспортування та складського зберігання, а також рол-контейнерів для переміщення малогабаритних вантажів.",
+      "en": "This is a young enterprise specializing in the production of electric-welded pipes of various shapes (round, square, rectangular, flat-oval), the wall thickness of which is from 0.8 to 2 millimeters; mesh containers for transportation and warehousing, as well as roll containers for moving small-sized cargo."
+    },
+    "area": "Берегово – 3000 м²; Ужгород – 8000 м² (планується збільшення до 11000 м²)",
+    "relocatedFrom": "м. Харків",
+    "sector": [
+      "Металообробка",
+      "Трубна продукція"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 11,
+    "name": {
+      "ua": "ТОВ “Варіант Вест”",
+      "en": "“Variant West” LLC"
+    },
+    "code": "44900404",
+    "address": {
+      "ua": "Закарпатська область, Берегівський район, м. Берегово",
+      "en": "Zakarpattia region, Berehovo region, Berehovе"
+    },
+    "email": "variantvest@ukr.net",
+    "descriptionFull": {
+      "ua": "Підприємство було створено як частина підприємства Фабрика ТОВ ‘‘Варіант’’, яке в зв’язку з бойовими діями на території Харківщини було змушено частину свого виробництва релокувати в райони Західної України та Закарпаття. В зв’язку з чим було зареєстровано новостворене підприємство ТОВ ‘‘ВАРІАНТ ВЕСТ’’. Підприємство займається виробництвом будівельних металевих конструкцій і частин конструкцій.",
+      "en": "The enterprise was established as part of the company ‘‘Variant’’ LLC which, due to military actions in the Kharkiv region, was forced to relocate part of its production to Western Ukraine and Zakarpattia. As a result, the new enterprise ‘‘VARIANT WEST’’ LLC was registered. The company is engaged in the production of building metal structures and parts of structures."
+    },
+    "area": "Берегово – 3500 м² (в оренді)",
+    "relocatedFrom": "м. Дніпро",
+    "sector": [
+      "Будівництво",
+      "Металоконструкції"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 12,
+    "name": {
+      "ua": "ТОВ “Ескаль Цинк”",
+      "en": "“Escal Zinc” LLC"
+    },
+    "code": "45159255",
+    "address": {
+      "ua": "Закарпатська область, Ужгородський район, м. Ужгород",
+      "en": "Zakarpattia region, Uzhhorod district, Uzhhorod"
+    },
+    "email": "eskal.zinc@gmail.com",
+    "descriptionFull": {
+      "ua": "Основним видом діяльності є оброблення металів та нанесення покриття на метали. Новий завод оснащено новітньою виробничою лінією, унікальною для Закарпатської області з ваннами гарячого цинкування, які дозволяють цинкувати металоконструкції довжиною до 7 метрів і продуктивністю 2300 тонн на місяць. Виробнича лінія відповідає усім необхідним стандартам та нормативам та повністю екологічно безпечна. Захист від корозії мінімум 10 років, товщина цинкового покриття від 50 мікрон.",
+      "en": "Primary activity: metal processing and coating. The new plant is equipped with a state-of-the-art production line unique for Zakarpattia Oblast, featuring hot-dip galvanizing baths that allow for the galvanization of metal structures up to 7 meters in length, with a productivity of 2300 tons per month. The production line meets all necessary standards and regulations and is completely environmentally safe. Corrosion protection lasts for a minimum of 10 years, with a zinc coating thickness of at least 50 microns."
+    },
+    "area": "7000 м²",
+    "relocatedFrom": "м. Харків",
+    "sector": [
+      "Металообробка",
+      "Цинкування"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 13,
+    "name": {
+      "ua": "ТОВ ‘‘Темп-Україна’’",
+      "en": "‘‘Temp-Ukraine’’ LLC"
+    },
+    "code": "37091423",
+    "address": {
+      "ua": "Закарпатська область, Хустський район, с. Ільниця",
+      "en": "Zakarpattia region, Khust district, Ilnytsia village"
+    },
+    "email": "temp.ukraina@gmail.com",
+    "descriptionFull": {
+      "ua": "Переробка вторинних полімерів є основним напрямком діяльності ТОВ ‘‘Темп Україна’’. Активно працюючи над передовими технологіями, постійно вдосконалюється продукція. Нові технології виробництва і розвиток полімерної промисловості дозволили розробити полімерпіщаний композитний матеріал, який становить основу для нового виду продукції. Головною особливістю технології виробництва є переробка вторинної сировини, з якої підприємство отримує пресову целюлозу для виготовлення продукції - полімерпіщані люки різних типів, садову та тротуарну плитку, а також збірники для дощової води.",
+      "en": "Recycling of secondary polymers is the main activity of ‘‘Temp Ukraine’’ LLC. By actively working on advanced technologies, the company is constantly improving its products. New production technologies and the development of the polymer industry have made it possible to develop a polymer-sand composite material that forms the basis for a new type of product. The main feature of the production technology is the recycling of secondary raw materials from which the company receives press pulp for manufacturing products, such as polymer-sand manhole covers of various types, garden and paving tiles, and rainwater collectors."
+    },
+    "area": "500 м² критих споруд та 600 м² надвірних площ",
+    "relocatedFrom": "м. Харків",
+    "sector": [
+      "Переробка",
+      "Полімери"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 14,
+    "name": {
+      "ua": "ТОВ “Піллар Інсталл”",
+      "en": "“Pillar Install” LLC"
+    },
+    "code": "42744069",
+    "address": {
+      "ua": "Закарпатська область, Ужгородський район, м. Ужгород",
+      "en": "Zakarpattia region, Uzhhorod district, Uzhhorod"
+    },
+    "email": "hv@pillar.ua",
+    "descriptionFull": {
+      "ua": "Основний вид діяльності - будівництво пальових фундаментів. Ключові компетенції компанії – це проектування, виробництво та монтаж пальово-гвинтових фундаментів. PILLAR - це перша в Україні інженерно-будівельна компанія, яка є експертом у вирішенні складних завдань будівництва пальових фундаментів. Компанія спеціалізується на створенні унікальних рішень для ефективного та оперативного зведення фундаменту для житлових, адміністративних та комерційних будівель на водонасиченому та вологому ґрунті, важкодоступних природних зонах, схилах та інших складнощах рельєфу та геології.",
+      "en": "The main activity is the construction of pile foundations. The key competencies of the company are the design, production and installation of pile-screw foundations. PILLAR is the first engineering and construction company in Ukraine, which is an expert in solving complex problems of pile foundation construction. The company specializes in creating unique solutions for the efficient and prompt construction of foundations for residential, administrative and commercial buildings on water-saturated and wet soil, hard-to-reach natural areas, slopes and other complexities of relief and geology."
+    },
+    "area": "2000 м²",
+    "relocatedFrom": "м. Дніпро",
+    "sector": [
+      "Будівництво",
+      "Фундаменти"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 15,
+    "name": {
+      "ua": "ТОВ ‘‘НВО Апекс Плант’’",
+      "en": "‘‘SPA Apex Plant’’ LLC"
+    },
+    "code": "42706683",
+    "address": {
+      "ua": "Закарпатська область, Хустський район, м. Іршава",
+      "en": "Zakarpattia region, Khust district, Irshava"
+    },
+    "email": "sales_m@apex-plant.com",
+    "descriptionFull": {
+      "ua": "Основний вид діяльності - компанія спеціалізується на виробництві якісної пластикової тари, яка призначена для різноманітних потреб і галузей. Вся продукція компанії - тари для автомобільної хімії, будівельної хімії, побутової хімії, промислових рідин, харчових рідин - відповідають вимогам якості, надійності та екологічним стандартам. Компанія приділяє особливу увагу контролю якості пластикових каністр, оскільки від них залежить надійність і безпека продуктів. Лабораторія контролю якості – це місце, де застосовуються сучасні технології і виконуються суворі етапи перевірки кожної каністри.",
+      "en": "The company specializes in the production of high-quality plastic containers for a variety of needs and industries. All of the company’s products - containers for automotive chemicals, construction chemicals, household chemicals, industrial liquids, and food liquids - meet quality, reliability, and environmental standards. The company pays special attention to the quality control of plastic canisters, as the reliability and safety of its products depend on them. The Quality Control Laboratory is a place where modern technologies are used and strict stages of inspection of each canister are carried out."
+    },
+    "area": "1000 м² + 2500 м² допоміжні",
+    "relocatedFrom": "м. Харків",
+    "sector": [
+      "Пластикова тара",
+      "Промислове пакування"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 16,
+    "name": {
+      "ua": "ТОВ “Атон Сервіс”",
+      "en": "“Aton Servise” LLC"
+    },
+    "code": "32915999",
+    "address": {
+      "ua": "Закарпатська область, Мукачівський район, селище Кольчино",
+      "en": "Zakarpattia region, Mukachevo district, Kolchyno"
+    },
+    "email": "info@aton-service.com.ua",
+    "descriptionFull": {
+      "ua": "Атон Сервіс — український розробник і виробник фільтруючого обладнання та систем аспірації. Компанія пропонує підприємствам комплексні енергоощадні рішення з питань аспірації, вентиляції й утилізації відходів. Атон Сервіс має власне проєктне бюро, сучасне виробництво біля кордону з ЄС. Проєктування, розробка та виготовлення систем аспірації і вентиляції, фільтруюче обладнання, вентилятори.",
+      "en": "Aton Service is a Ukrainian developer and manufacturer of filtering equipment and aspiration systems. The company offers enterprises comprehensive energy-saving solutions for aspiration, ventilation and waste disposal. Aton Service has its own design office and modern production facilities near the EU border. Design, development and manufacture of aspiration and ventilation systems, filtering equipment, fans."
+    },
+    "area": "1500 м²",
+    "relocatedFrom": "м. Бровари",
+    "sector": [
+      "Вентиляційні системи",
+      "Фільтраційне обладнання"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 17,
+    "name": {
+      "ua": "ПП “Шемакс компанія”",
+      "en": "“Company SHEMAX” PE"
+    },
+    "code": "37453702",
+    "address": {
+      "ua": "Закарпатська область, Ужгородський район, с. Концово",
+      "en": "Zakarpattia region, Uzhhorod district, Kontsovo village"
+    },
+    "email": "info@shemax.ua",
+    "descriptionFull": {
+      "ua": "SHEMAX – провідна українська компанія у сфері манікюрного обладнання преміум класу. На заводі з повним циклом виробництва створюють високоякісні професійні моделі пилозбірників, що поглинають 90% манікюрного пилу, змінні фільтри до них, колектори токсичних випарів для майстрів з нарощування вій та нігтів, бактерицидні рециркулятори повітря для його знезараження у салонах краси, стильні підставки для рук та дизайнерські фартухи. Відданість інноваціям та прагнення досконалості забезпечили SHEMAX лідерство на б’юті ринку.",
+      "en": "SHEMAX is a leading Ukrainian company in the field of premium manicure equipment. At the plant with a full production cycle, they create high-quality professional models of dust collectors that absorb 90% of manicure dust, replaceable filters for them, collectors of toxic fumes for eyelash and nail extension masters, bactericidal air recirculators for its disinfection in beauty salons, stylish palm rests and designer aprons. Thanks to the company’s products, they have the opportunity to improve the level of service and receive larger checks for their services. Dedication to innovation and the pursuit of excellence have ensured SHEMAX leadership in the beauty market."
+    },
+    "area": "1100 м²",
+    "relocatedFrom": "м. Дніпро",
+    "sector": [
+      "Бьюті-індустрія",
+      "Обладнання для салонів"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 18,
+    "name": {
+      "ua": "ТОВ “Клевер і Компас фабрика передових технологій”",
+      "en": "‘‘Klever and Kompas advanced technology factory’’ LLC"
+    },
+    "code": "45094366",
+    "address": {
+      "ua": "Закарпатська область, Ужгородський район, м. Перечин",
+      "en": "Zakarpattia region, Uzhhorod district, Perechyn"
+    },
+    "email": "zakaz@kompas-group.com.ua",
+    "descriptionFull": {
+      "ua": "Основний вид діяльності компанії - це сучасне виробництво з високотехнологічним обладнанням для обробки алюмінієвого профілю та системним програмним забезпеченням Reynaers. Компанія займається склінням приватних об’єктів, об’єктів комерційної нерухомості, різноманітних житлових комплексів та являється офіційним сертифікованим партнером Reynaers Aluminium. Крім виробництва якісних металевих виробів, команда компанії працює над створенням міського простору, де кожна деталь має своє значення. Широкий асортимент міських меблів визначається надійними експлуатаційними показниками, зручністю та естетичним дизайном.",
+      "en": "The company’s core business is a modern production facility with high-tech equipment for processing aluminum profiles and Reynaers system software. The company is engaged in glazing of private properties, commercial real estate, various residential complexes and is an official certified partner of Reynaers Aluminum. In addition to producing high-quality metal products, the company’s team is working to create an urban space where every detail matters. A wide range of urban furniture is characterized by reliable performance, convenience and aesthetic design."
+    },
+    "area": "2500 м²",
+    "relocatedFrom": null,
+    "sector": [
+      "Алюмінієві конструкції",
+      "Архітектура"
+    ],
+    "category": [
+      "Інвестиційні проєкти"
+    ]
+  },
+  {
+    "id": 19,
+    "name": {
+      "ua": "ТОВ “Зібрано”",
+      "en": "“Zibrano” LLC"
+    },
+    "code": "44612000",
+    "address": {
+      "ua": "Закарпатська область, Хустський район, м. Іршава",
+      "en": "Zakarpattia region, Khust district, Irshava"
+    },
+    "email": "sales@zibrano.com.ua",
+    "descriptionFull": {
+      "ua": "‘‘Зібрано’’ – компанія, яка вже більше 10 років займається проектуванням, виготовленням та монтажем енергоефективних будинків, об’єктів комерційної та суспільної забудови на території України та ЄС. Команда архітекторів та конструкторів розробляє та ефективно адаптує проєкт до модульно-каркасної технології. Два виробничі цехи здатні випускати до 12 000 метрів квадратних на місяць. Конструкції виготовляються згідно діючих норм регіону забудови.",
+      "en": "“Zibrano” is a company that has been engaged in the design, manufacture and installation of energy-efficient buildings (commercial and public) on the territory of Ukraine and the EU. Architects and designers develop and effectively adapt the project to modular frame technology. Two production workshops are capable of producing up to 12,000 square meters per month. Structures are manufactured in accordance with the current norms of the built-up region."
+    },
+    "area": "3500 м²",
+    "relocatedFrom": "м. Бровари",
+    "sector": [
+      "Будівництво",
+      "Модульні будинки"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 20,
+    "name": {
+      "ua": "ТОВ “Катіон Інвест”",
+      "en": "“Kation Invest” LLC"
+    },
+    "code": "39508760",
+    "address": {
+      "ua": "Закарпатська область, Тячівський район, с. Теребля",
+      "en": "Zakarpattia region, Tyachiv district, Tereblia village"
+    },
+    "email": "s.kondratiev@kationinvest.com",
+    "descriptionFull": {
+      "ua": "Основний вид діяльності - добування солі. ТОВ “Катіон Інвест” володіє спеціальним дозволом на користування надрами; займається розробкою Тереблянського родовища кам’яної солі та здійснює будівництво солерудника у с. Теребля. У планах підприємства (2024-2025) - підготовка шахтного поля для очисної виїмки солі з камер, що дозволить виходити на об’єми видобутку 15 - 20 тис тон в місяць (2025 рік).",
+      "en": "The main activity is salt extraction. ‘‘Cation Invest’’ LLC has a special permit for the use of subsoil; is engaged in the development of the Tereblyanske rock salt deposit and carries out the construction of a salt mine in the village of Tereblia. The company’s plans (2024-2025) include the preparation of a mine field for the purification extraction of salt from the chambers, which will allow reaching production volumes of 15 - 20 thousand tons per month (2025)."
+    },
+    "area": "32 га",
+    "relocatedFrom": null,
+    "sector": [
+      "Добування солі",
+      "Гірнича промисловість"
+    ],
+    "category": [
+      "Інвестиційні проєкти"
+    ]
+  },
+  {
+    "id": 21,
+    "name": {
+      "ua": "ТОВ ‘‘Прайм снек’’",
+      "en": "‘‘Prime Snack’’ LLC"
+    },
+    "code": "40271201",
+    "address": {
+      "ua": "Закарпатська область, Мукачівський район, м. Мукачево",
+      "en": "Zakarpattia region, Mukachevo district, Mukachevo"
+    },
+    "email": "sales@sneco.ua",
+    "descriptionFull": {
+      "ua": "Основний вид діяльності - виробництво унікальних здорових і натуральних снеків з 100% сиру по запатентованій технології. Ідея створити корисний, смачний і поживний перекус із сиру з’явилася ще у 2015 році. В основу майбутніх екоснеків лягла технологія, яку в 1970-х роках винайшли NASA для забезпечення космонавтів корисною їжею: щоб продукти важили якнайменше, їх дегідратовували, тобто забирали всю вологу в мікрохвильовий вакуумний спосіб. Саме завдяки цій технології вдалося висушити сир і при цьому зберегти його поживні речовини.",
+      "en": "The main activity is the production of unique healthy and natural snacks from 100% cottage cheese using patented technology. The idea to create a healthy, tasty and nutritious snack from cottage cheese appeared back in 2015. Future eco-snacks are based on a technology invented by NASA in the 1970s to provide astronauts with healthy food: to make the products weigh as little as possible, they are dehydrated, that is, all moisture is taken away in a microwave vacuum method. It was thanks to this technology that it was possible to dry the cheese and at the same time preserve its nutrients."
+    },
+    "area": "1000 м²",
+    "relocatedFrom": "м. Харків",
+    "sector": [
+      "Харчова промисловість",
+      "Снекова продукція"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 22,
+    "name": {
+      "ua": "ТОВ ‘‘ДАР МЛИН ЗАКАРПАТТЯ’’",
+      "en": "‘‘DAR MLYN ZAKARPATTIA’’ LLC"
+    },
+    "code": "45021628",
+    "address": {
+      "ua": "Закарпатська область, Ужгородський район, м. Ужгород",
+      "en": "Zakarpattia region, Uzhhorod district, Uzhhorod"
+    },
+    "email": "darmlynzakarpattya@gmail.com",
+    "descriptionFull": {
+      "ua": "Основний вид діяльності підприємства – виробництво високоякісного та екологічно чистого борошна європейського рівня з зерна, яке вирощено за сучасними технологіями по міжнародним стандартам. ТОВ ‘‘Дар Млин Закарпаття’’ виробляє цільнозернове та пшеничне борошно. Компанія використовує власну лабораторію, яка оснащена сучасними сертифікованими вимірювальними приладами для можливостей досліджувати якість сировини і готової продукції. Вся продукція сертифікована.",
+      "en": "The main activity of the enterprise is the production of high-quality and ecologically clean flour of the European level from grain, which is grown according to modern technologies according to international standards. ‘‘Dar Mlyn Zakarpattia’’ LLC produces whole grain and wheat flour. The company uses its own laboratory, which is equipped with modern certified measuring devices for opportunities to examine the quality of raw materials and finished products. All products are certified."
+    },
+    "area": "понад 500 м²",
+    "relocatedFrom": "м. Маріуполь",
+    "sector": [
+      "Харчова промисловість",
+      "Борошно"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 23,
+    "name": {
+      "ua": "ТОВ ‘‘ДНІПРО-99’’",
+      "en": "‘‘DNIPRO-99’’ LLC"
+    },
+    "code": "32617723",
+    "address": {
+      "ua": "Закарпатська область, Берегівський район, с. Підвиноградів",
+      "en": "Zakarpattia region, Berehovo district, Pidvynogradiv village"
+    },
+    "email": "dnipro99@ukr.net",
+    "descriptionFull": {
+      "ua": "Основний вид діяльності підприємства - вирощування овочів і баштанних культур, коренеплодів і бульбоплодів. Вирощену продукцію працівники підприємства збирають, миють та сортують урожай, а відтак відбувається пакування овочів та фруктів для їхньої реалізації в мережах магазинів SPAR. Наразі підприємство будує овочесховище на 1000 тонн з відповідним температурним режимом. Релоковане у 2014 році із АР Крим, у 2022 році - із Херсонської області, Скадовський р-н.",
+      "en": "The main activity of the enterprise is the cultivation of vegetables and melons, root crops and tubers. The grown products are collected, washed and sorted by the company’s employees, and then vegetables and fruits are packed for sale in SPAR chain stores. Currently, the company is building a vegetable store for 1000 tons with the appropriate temperature regime. Relocated in 2014 from the Autonomous Republic of Crimea, in 2022 - from the Kherson region, Skadovsk district."
+    },
+    "area": "55 га",
+    "relocatedFrom": "АР Крим (2014), Херсонська область (2022)",
+    "sector": [
+      "Сільське господарство",
+      "Овочівництво"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 24,
+    "name": {
+      "ua": "ТОВ ‘‘Віан 2021’’",
+      "en": "‘‘Vian 2021’’ LLC"
+    },
+    "code": "44683066",
+    "address": {
+      "ua": "Закарпатська область, Мукачівський район, м. Мукачево",
+      "en": "Zakarpattia region, Mukachevo district, Mukachevo"
+    },
+    "email": "sbandurov22672@gmail.com",
+    "descriptionFull": {
+      "ua": "Основний вид діяльності - вирощування ягід, малини, суниці, садової лохини, горіхів, інших плодових дерев і чагарників. Підприємство працює за сучасними технологіями: теплиці та відкриті ділянки керуються дистанційно зі смартфону. На території підприємства збудовано басейн для запасу води, проведені труби для автоматичного поливу, якість ґрунту та потреби його в насиченні контролюються сучасними методами.",
+      "en": "The main activity is the cultivation of berries, raspberries, strawberries, garden blueberries, nuts, and other fruit trees and shrubs. The company operates on modern technologies: greenhouses and open areas are controlled remotely from a smartphone. A swimming pool for water storage has been built on the territory of the enterprise, pipes for automatic irrigation have been installed, the quality of the soil and its saturation needs are controlled by modern methods."
+    },
+    "area": "34 га (в оренді)",
+    "relocatedFrom": "Запорізька область",
+    "sector": [
+      "Сільське господарство",
+      "Ягідництво"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 25,
+    "name": {
+      "ua": "ТОВ ‘‘ПЛАСТ ПРІНТ’’",
+      "en": "‘‘PLAST PRINT’’ LLC"
+    },
+    "code": "36815414",
+    "address": {
+      "ua": "Закарпатська область, Ужгородський район, м. Ужгород",
+      "en": "Zakarpattia region, Uzhhorod district, Uzhhorod"
+    },
+    "email": "info@plast-print.ua",
+    "descriptionFull": {
+      "ua": "“Пласт Прінт” – компанія, що динамічно розвивається і працює на ринку з 2004 року. Виготовлення пластикових карток – вузька спеціалізація компанії. Вона дозволяє приділяти всю увагу виготовленню конкретної продукції, впроваджувати нові технології, вести грамотну політику ціноутворення, що прямо впливає на збільшення кола постійних клієнтів та залучення нових замовників. Щорічно збільшується обсяг виробництва пластикових карток, модернізується обладнання, впроваджуються нові технології. З моменту створення підприємства виробнича потужність карток офсетним друком не перевищувала 120 тисяч карток на рік.",
+      "en": "Plast Print is a dynamically developing company that has been operating in the market since 2004. Plastic card manufacturing is narrow specialization of the company. It allows us to pay full attention to the production of specific products, introduce new technologies, and conduct a competent pricing policy, which directly affects the increase in the number of regular customers and the attraction of new customers. The volume of plastic card production is increasing annually, equipment is being modernized, and new technologies are being introduced. Since the company’s establishment, the production capacity of offset cards has not exceeded 120 thousand cards per year."
+    },
+    "area": "700 м²",
+    "relocatedFrom": "м. Харків",
+    "sector": [
+      "Поліграфія",
+      "Пластикова продукція"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 26,
+    "name": {
+      "ua": "ТОВ ‘‘Техно-Друк’’",
+      "en": "‘‘Techno-Druck’’ LLC"
+    },
+    "code": "40476821",
+    "address": {
+      "ua": "Закарпатська область, Ужгородський район, с. Тарнівці",
+      "en": "Zakarpattia region, Uzhhorod district, Tarnivtsi village"
+    },
+    "email": "a.kudryavtseva@technodruck.com",
+    "descriptionFull": {
+      "ua": "Основним видом діяльності підприємства є розробка та виготовлення самоклеючих етикеток для різних напоїв, побутової хімії, продуктів харчування. Надійний постачальник поліграфічної продукції на ринках України та Центральної Азії. Компанія розглядає напрямки виходу на Європейський ринок. Протягом 6 років компанія виконує індивідуальні замовлення на ринках України та Центральної Азії, а зараз планує працювати й на європейському. Аби покращити процес виробництва і вийти на новий рівень, підприємство вирішило скористатися фінансовою підтримкою від держави.",
+      "en": "Primary activity: development and production of self-adhesive labels for various beverages, household chemicals, and food products. A reliable supplier of printing products in the markets of Ukraine and Central Asia. The company is considering ways to enter the European market. For 6 years, the company has been fulfilling individual orders on the markets of Ukraine and Central Asia, and now plans to work on the European market as well. In order to improve the production process and reach a new level, the company decided to use financial support from the state."
+    },
+    "area": "2000 м² (в оренді)",
+    "relocatedFrom": "м. Харків",
+    "sector": [
+      "Поліграфія",
+      "Упаковка"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 27,
+    "name": {
+      "ua": "ТОВ “Карпат Харбор”",
+      "en": "“Karpat Harbor” LLC"
+    },
+    "code": "44680636",
+    "address": {
+      "ua": "Закарпатська область, Мукачівський район, с. Клячаново",
+      "en": "Zakarpattia region, Mukachevo district, Klyachanovo village"
+    },
+    "email": "office@karpat-harbor.com.ua",
+    "descriptionFull": {
+      "ua": "Новостворене підприємство у Закарпатті, яке збудовало новий термінал, надає повний спектр послуг від елеватору до фінальної локації на зернові та олійні продукти, надає послуги із залізничних перевезень сільськогосподарської продукції; допоміжне обслуговування наземного транспорту (послуги з перевантаження зернових та олійних вантажів). Підприємство здійснює підготовку повного необхідного пакету документів, надає послуги з митного оформлення вантажу, співпрацює з міжнародними компаніями з метою забезпечення контролю якості та безпеки товару, відправляє вантаж до одного з європейських портів з використанням європейської транспортно-логістичної системи.",
+      "en": "The newly created enterprise in Zakarpattia, which built a new terminal, provides a full range of services from the elevator to the final location for grain and oil products, provides services for railway transportation of agricultural products; auxiliary maintenance of land transport (services for transshipment of grain and oil cargoes). The company prepares a complete package of necessary documents, provides cargo customs clearance services, cooperates with international companies to ensure product quality and safety control, and ships cargo to one of the European ports using the European transport and logistics system."
+    },
+    "area": "800 м²",
+    "relocatedFrom": "м. Харків",
+    "sector": [
+      "Логістика",
+      "Аграрний експорт"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 28,
+    "name": {
+      "ua": "ПП ‘‘КОМПАНІЯ ‘‘НАДЄЖДА’’",
+      "en": "‘‘COMPANY ‘‘NADEZHDA’’ LLC"
+    },
+    "code": "22519085",
+    "address": {
+      "ua": "Закарпатська область, Мукачівський район, с. Горонда",
+      "en": "Zakarpattia region, Mukachevo district, Goronda village"
+    },
+    "email": "akucher@oil.pl.ua",
+    "descriptionFull": {
+      "ua": "Основний вид діяльності в Закарпатті - перевантаження нафтопродуктів, скрапленого газу, біоетанолу та рослинної олії. Компанія має 20-ти річний досвід з питань транспортування та логістики до країн Європейського Союзу. Термінал “Strabichevo Petroleum Hub” готовий співпрацювати у напрямках перевантаження з українських цистерн широкої колії до європейської колії і навпаки, а також з/в автоцистерни в/з європейські вагоно-цистерни колії 1435 мм та українські вагоно-цистерни колії 1520 мм такі продукти, як рослинна олія, скраплений газ, нафтопродукти, біоетанол та оливи технічні.",
+      "en": "The main type of activity in Zakarpattia is transshipment of petroleum products, liquefied gas, bioethanol and vegetable oil. The company has 20 years of experience in transportation and logistics to the countries of the European Union. The ‘‘Strabichevo Petroleum Hub’’ terminal is ready to cooperate in the direction of transshipment from Ukrainian broad-gauge tanks to European gauge and vice versa, as well as from/to tank trucks to/from European tank cars with a gauge of 1435 mm and Ukrainian rail cars 1520 mm gauge tanks such products as vegetable oil, liquefied gas, petroleum products, bioethanol and technical oils."
+    },
+    "area": "18 га",
+    "relocatedFrom": null,
+    "sector": [
+      "Нафтопродукти",
+      "Енергетична логістика"
+    ],
+    "category": [
+      "Інвестиційні проєкти"
+    ]
+  },
+  {
+    "id": 29,
+    "name": {
+      "ua": "ТОВ “БІОФАРМА ПЛАЗМА”",
+      "en": "“BIOPHARMA PLASMA” LLC"
+    },
+    "code": "39000694",
+    "address": {
+      "ua": "Закарпатська область, Ужгородський район, м. Ужгород",
+      "en": "Zakarpattia region, Uzhhorod district, Uzhhorod"
+    },
+    "email": "info@biopharma.ua",
+    "descriptionFull": {
+      "ua": "Біофарма – українська біотехнологічна компанія, яка займається заготівлею плазми, а також спеціалізується на виробництві плазми для виготовлення препаратів крові. Уже понад 125 років розробляє інноваційні препарати, виробляють ліки з плазми донорської крові людини - препарати, що рятують життя. Спеціалізація: виробництво основних фармацевтичних продуктів і фармацевтичних препаратів (виробництво імунобіологічних препаратів).",
+      "en": "Biopharma is a Ukrainian biotechnology company engaged in plasma collection and specializing in the production of plasma for blood product manufacturing. For over 125 years, it has been developing innovative products and producing life-saving medications from human donor plasma. Specialization: production of basic pharmaceutical products and pharmaceutical preparations (production of immunobiological products)."
+    },
+    "area": null,
+    "relocatedFrom": "м. Біла Церква",
+    "sector": [
+      "Фармацевтика",
+      "Біотехнології"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  },
+  {
+    "id": 30,
+    "name": {
+      "ua": "ТОВ ‘‘SVTR’’",
+      "en": "‘‘SVTR’’ LLC"
+    },
+    "code": "44292356",
+    "address": {
+      "ua": "Закарпатська область, Мукачівський район, м. Свалява",
+      "en": "Zakarpattia region, Mukachevo district, Svalyava"
+    },
+    "email": "svtrok@gmail.com",
+    "descriptionFull": {
+      "ua": "“SVTR” — український бренд трикотажного одягу високої якості, який має своїх шанувальників як в Україні, так і за кордоном. Для виготовлення трикотажних виробів використовується якісна італійська, турецька, латвійська та румунська пряжі. Светри виготовляються на новітніх японських в’язальних машинах фірми ‘‘Shima Seiki’’. Для відпарювання, збирання та прання використовуються італійські кітеля “Conti Complett” та паро-столи ‘‘Nustri’’, тайванські швейні, розпошивальні, оверлочні та петельні машини фірми ‘‘Siruba’’, а також французький професійний прально-сушильний комплекс “Danube Wen”. Торговельна марка “SVTR” офіційно зареєстрована в ЄС та США.",
+      "en": "“SVTR’’ is a Ukrainian brand of high-quality knitwear that has its fans both in Ukraine and abroad. The company uses high-quality Italian, Turkish, Latvian and Romanian yarns to make its knitwear. The sweaters are made on the latest Japanese knitting machines by Shima Seiki. Italian Conti Complett tunic steamers and Nustri steam tables, Taiwanese Siruba sewing, overlocking and buttonhole machines, as well as a French professional washing and drying complex Danube Wen are used for steaming, collecting and washing. The SVTR trademark is officially registered in the EU and the USA."
+    },
+    "area": "500 м²",
+    "relocatedFrom": null,
+    "sector": [
+      "Легка промисловість",
+      "Одяг"
+    ],
+    "category": [
+      "Інвестиційні проєкти"
+    ]
+  },
+  {
+    "id": 31,
+    "name": {
+      "ua": "ТОВ ‘‘МОНІ’’",
+      "en": "‘‘MONI’’ LLC"
+    },
+    "code": "40990630",
+    "address": {
+      "ua": "Закарпатська область, Ужгородський район, м. Ужгород",
+      "en": "Zakarpattia region, Uzhhorod district, Uzhhorod"
+    },
+    "email": "tsukerka.ltd@gmail.com",
+    "descriptionFull": {
+      "ua": "Основний вид діяльності - виробництво сучасної доглядової косметики, виробництво хімічних речовин і хімічної продукції (виробництво парфумних і косметичних засобів). Компанія має власні бренди, такі як Sane, Tsukerka та Scalp.",
+      "en": "Primary activity: production of modern personal care cosmetics; production of chemicals and chemical products (including perfume and cosmetic products). The company has its own brands, such as Sane, Tsukerka, and Scalp."
+    },
+    "area": "170 м²",
+    "relocatedFrom": "м. Київ",
+    "sector": [
+      "Косметика",
+      "Хімічна промисловість"
+    ],
+    "category": [
+      "Релоковані підприємства"
+    ]
+  }
+]
